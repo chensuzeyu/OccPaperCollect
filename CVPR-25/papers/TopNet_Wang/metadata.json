@@ -1,0 +1,16 @@
+{
+  "title": "TopNet: Transformer-Efficient Occupancy Prediction Network for Octree-Structured Point Cloud Geometry Compression",
+  "short_title": "TopNet",
+  "authors": ["Wang", "et al."],
+  "first_author": "Wang",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2503.18541",
+  "arxiv_url": "https://arxiv.org/abs/2503.18541",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_TopNet_Transformer-Efficient_Occupancy_Prediction_Network_for_Octree-Structured_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/xinjiewang1995/topnet",
+  "abstract": "See CVF for full abstract.",
+  "pdf_source": "arxiv",
+  "local_pdf": "TopNet_CVPR2025.pdf",
+  "keywords": ["occupancy", "point cloud", "octree", "geometry compression", "PCGC"],
+  "notes": "First author: Xinjie Wang."
+}

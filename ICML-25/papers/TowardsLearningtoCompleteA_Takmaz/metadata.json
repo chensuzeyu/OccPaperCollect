@@ -1,0 +1,24 @@
+{
+  "title": "Towards Learning to Complete Anything in Lidar",
+  "short_title": "Towards Learning to Complete A",
+  "authors": [
+    "Ayça Takmaz",
+    "Cristiano Saltori",
+    "Neehar Peri",
+    "Tim Meinhardt",
+    "Riccardo de Lutio",
+    "Laura Leal-Taixé",
+    "Aljosa Osep"
+  ],
+  "first_author": "Takmaz",
+  "venue": "ICML 2025",
+  "presentation_type": "poster",
+  "openreview_url": "https://openreview.net/forum?id=vWPzKn6usZ",
+  "openreview_id": "vWPzKn6usZ",
+  "pdf_url": "/pdf/8fbe2a59d85d4f1be15c6351679cc46349d858df.pdf",
+  "abstract": "We propose CAL (Complete Anything in Lidar) for Lidar-based shape-completion in-the-wild. This is closely related to Lidar-based semantic/panoptic scene completion. However, contemporary methods can only complete and recognize objects from a closed vocabulary labeled in existing Lidar datasets. Different to that, our zero-shot approach leverages the temporal context from multi-modal sensor sequences to mine object shapes and semantic features of observed objects. These are then distilled into a Lidar-only instance-level completion and recognition model. Although we only mine partial shape completions, we find that our distilled model learns to infer full object shapes from multiple such partial observations across the dataset. We show that our model can be prompted on standard benchmarks for Semantic and Panoptic Scene Completion, localize objects as (amodal) 3D bounding boxes, and recognize objects beyond fixed class vocabularies.",
+  "keywords": [
+    "Zero-shot segmentation; Lidar scene completion; Lidar perception"
+  ],
+  "local_pdf": ""
+}

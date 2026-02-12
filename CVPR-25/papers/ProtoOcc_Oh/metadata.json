@@ -1,0 +1,16 @@
+{
+  "title": "3D Occupancy Prediction with Low-Resolution Queries via Prototype-aware View Transformation",
+  "short_title": "ProtoOcc",
+  "authors": ["Oh", "et al."],
+  "first_author": "Oh",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2503.15185",
+  "arxiv_url": "https://arxiv.org/abs/2503.15185",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Oh_3D_Occupancy_Prediction_with_Low-Resolution_Queries_via_Prototype-aware_View_Transformation_CVPR_2025_paper.pdf",
+  "project_url": "https://kuai-lab.github.io/cvpr2025protoocc/",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "ProtoOcc_CVPR2025.pdf",
+  "keywords": ["occupancy", "3D prediction", "prototype", "view transformation", "low-resolution"],
+  "notes": "First author: Gyeongrok Oh. Korea University, Purdue, Samsung."
+}

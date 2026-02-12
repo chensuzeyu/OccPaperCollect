@@ -1,0 +1,72 @@
+[
+  {
+    "num": 1,
+    "dir_name": "ConcreTizer_Kim",
+    "title": "ConcreTizer: Model Inversion Attack via Occupancy Classification and Dispersion Control for 3D Point Cloud Restoration",
+    "short_title": "ConcreTizer",
+    "first_author": "Kim",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=I4iZmsV4HM",
+    "pdf_url": "/pdf/f80519b21c8120e6085d03f829bab81fd2c994cb.pdf"
+  },
+  {
+    "num": 2,
+    "dir_name": "Semi-SupervisedVision-Centric_Li",
+    "title": "Semi-Supervised Vision-Centric 3D Occupancy World Model for Autonomous Driving",
+    "short_title": "Semi-Supervised Vision-Centric",
+    "first_author": "Li",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=rCX9l4OTCT",
+    "pdf_url": "/pdf/1ebadb32648593e11d17c7b03031ce84fe8eb3ae.pdf"
+  },
+  {
+    "num": 3,
+    "dir_name": "Point-basedInstanceCompletio_Khademi",
+    "title": "Point-based Instance Completion with Scene Constraints",
+    "short_title": "Point-based Instance Completio",
+    "first_author": "Khademi",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=llSiIJosDj",
+    "pdf_url": "/pdf/15928d6031bc39d2236450ec38152786f166ef71.pdf"
+  },
+  {
+    "num": 4,
+    "dir_name": "Uncertaintymodelingforfine-_Susmelj",
+    "title": "Uncertainty modeling for fine-tuned implicit functions",
+    "short_title": "Uncertainty modeling for fine-",
+    "first_author": "Susmelj",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=iZl0VqEdxa",
+    "pdf_url": "/pdf/44c285caeafc140fc8929f938d9496a4ae75bee2.pdf"
+  },
+  {
+    "num": 5,
+    "dir_name": "OccProphet_Chen",
+    "title": "OccProphet: Pushing the Efficiency Frontier of Camera-Only 4D Occupancy Forecasting with an Observer-Forecaster-Refiner Framework",
+    "short_title": "OccProphet",
+    "first_author": "Chen",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=vC7AlY1ytz",
+    "pdf_url": "/pdf/dfa964e01776bee3436a7bb182a5fafd67461314.pdf"
+  },
+  {
+    "num": 6,
+    "dir_name": "ImagineNav_Zhao",
+    "title": "ImagineNav: Prompting Vision-Language Models as Embodied Navigator through Scene Imagination",
+    "short_title": "ImagineNav",
+    "first_author": "Zhao",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=vQFw9ryKyK",
+    "pdf_url": "/pdf/e349d69236fa6d97f504e96881ee34405d7de516.pdf"
+  },
+  {
+    "num": 7,
+    "dir_name": "DynamicCity_Bian",
+    "title": "DynamicCity: Large-Scale 4D Occupancy Generation from Dynamic Scenes",
+    "short_title": "DynamicCity",
+    "first_author": "Bian",
+    "presentation": "spotlight",
+    "openreview_url": "https://openreview.net/forum?id=M7KyLjuN0A",
+    "pdf_url": "/pdf/6bd7934befbdfc3d017210aa31c91af9e423ee82.pdf"
+  }
+]

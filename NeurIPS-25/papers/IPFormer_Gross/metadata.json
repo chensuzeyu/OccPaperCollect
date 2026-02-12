@@ -1,0 +1,28 @@
+﻿{
+    "title":  "IPFormer: Visual 3D Panoptic Scene Completion with Context-Adaptive Instance Proposals",
+    "short_title":  "IPFormer",
+    "authors":  [
+                    "Markus Gross",
+                    "Aya Fahmy",
+                    "Danit Niwattananan",
+                    "Dominik Muhle",
+                    "Rui Song",
+                    "Daniel Cremers",
+                    "Henri Meeß"
+                ],
+    "first_author":  "Gross",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=Y0hymKkn2a",
+    "openreview_id":  "Y0hymKkn2a",
+    "pdf_url":  "/pdf/35b9872408568deb352cfc6caa261d4f83c96656.pdf",
+    "abstract":  "Semantic Scene Completion (SSC) has emerged as a pivotal approach for jointly learning scene geometry and semantics, enabling downstream applications such as navigation in mobile robotics. The recent generalization to Panoptic Scene Completion (PSC) advances the SSC domain by integrating instance-level information, thereby enhancing object-level sensitivity in scene understanding. While PSC was introduced using LiDAR modality, methods based on camera images remain largely unexplored. Moreover, recent Transformer-based approaches utilize a fixed set of learned queries to reconstruct objects within the scene volume. Although these queries are typically updated with image context during training, they remain static at test time, limiting their ability to dynamically adapt specifically to the observed scene. To overcome these limitations, we propose IPFormer, the first method that leverages context-adaptive instance proposals at train and test time to address vision-based 3D Panoptic Scene Completion. Specifically, IPFormer adaptively initializes these queries as panoptic instance proposals derived from image context and further refines them through attention-based encoding and decoding to reason about semantic instance-voxel relationships. Extensive experimental results show that our approach achieves state-of-the-art in-domain performance, exhibits superior zero-shot generalization on out-of-domain data, and achieves a runtime reduction exceeding 14$\\times$. These results highlight our introduction of context-adaptive instance proposals as a pioneering effort in addressing vision-based 3D Panoptic Scene Completion. Code available at https://github.com/markus-42/ipformer.",
+    "keywords":  [
+                     "Segmentation",
+                     "Panoptic Scene Completion",
+                     "Semantic Scene Completion",
+                     "Scene Understanding",
+                     "3D Computer Vision"
+                 ],
+    "local_pdf":  "IPFormer_NeurIPS2025.pdf"
+}

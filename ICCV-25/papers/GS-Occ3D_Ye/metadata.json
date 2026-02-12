@@ -1,0 +1,16 @@
+{
+  "title": "GS-Occ3D: Scaling Vision-only Occupancy Reconstruction with Gaussian Splatting",
+  "short_title": "GS-Occ3D",
+  "authors": ["Ye", "et al."],
+  "first_author": "Ye",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2507.19451",
+  "arxiv_url": "https://arxiv.org/abs/2507.19451",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ye_GS-Occ3D_Scaling_Vision-only_Occupancy_Reconstruction_with_Gaussian_Splatting_ICCV_2025_paper.pdf",
+  "project_url": "https://gs-occ3d.github.io/",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "GS-Occ3D_ICCV2025.pdf",
+  "keywords": ["occupancy", "Gaussian splatting", "vision-only", "reconstruction"],
+  "notes": null
+}

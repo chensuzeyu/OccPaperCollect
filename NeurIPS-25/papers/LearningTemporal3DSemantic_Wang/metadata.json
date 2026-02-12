@@ -1,0 +1,23 @@
+﻿{
+    "title":  "Learning Temporal 3D Semantic Scene Completion via Optical Flow Guidance",
+    "short_title":  "Learning Temporal 3D Semantic",
+    "authors":  [
+                    "Meng Wang",
+                    "Fan Wu",
+                    "Ruihui Li",
+                    "Qin Yunchuan",
+                    "Zhuo Tang",
+                    "Kenli Li"
+                ],
+    "first_author":  "Wang",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=nK5WovvHk2",
+    "openreview_id":  "nK5WovvHk2",
+    "pdf_url":  "/pdf/3e84529ff6f6fc8589a2cd58b74951051b5baa57.pdf",
+    "abstract":  "3D Semantic Scene Completion (SSC) provides comprehensive scene geometry and semantics for autonomous driving perception, which is crucial for enabling accurate and reliable decision-making. However, existing SSC methods are limited to capturing sparse information from the current frame or naively stacking multi-frame temporal features, thereby failing to acquire effective scene context. These approaches ignore critical motion dynamics and struggle to achieve temporal consistency. To address the above challenges, we propose a novel temporal SSC method FlowScene: Learning Temporal 3D Semantic Scene Completion via Optical Flow Guidance. By leveraging optical flow, FlowScene can integrate motion, different viewpoints, occlusions, and other contextual cues, thereby significantly improving the accuracy of 3D scene completion. Specifically, our framework introduces two key components: (1) a Flow-Guided Temporal Aggregation module that aligns and aggregates temporal features using optical flow, capturing motion-aware context and deformable structures; and (2) an Occlusion-Guided Voxel Refinement module that injects occlusion masks and temporally aggregated features into 3D voxel space, adaptively refining voxel representations for explicit geometric modeling.\nExperimental results demonstrate that FlowScene achieves state-of-the-art performance, with mIoU of 17.70 and 20.81 on the SemanticKITTI and SSCBench-KITTI-360 benchmarks.",
+    "keywords":  [
+                     "Semantic Scene Completion; autonomous driving"
+                 ],
+    "local_pdf":  "Learning Temporal 3D Semantic_NeurIPS2025.pdf"
+}

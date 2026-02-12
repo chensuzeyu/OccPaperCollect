@@ -1,0 +1,30 @@
+﻿{
+    "title":  "COME: Adding Scene-Centric Forecasting Control to Occupancy World Model",
+    "short_title":  "COME",
+    "authors":  [
+                    "Yining Shi",
+                    "Kun Jiang",
+                    "Qiang Meng",
+                    "Ke Wang",
+                    "Jiabao Wang",
+                    "Wenchao Sun",
+                    "Tuopu Wen",
+                    "mengmeng yang",
+                    "Diange Yang"
+                ],
+    "first_author":  "Shi",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=EYxLmZRSK1",
+    "openreview_id":  "EYxLmZRSK1",
+    "pdf_url":  "/pdf/abf243e70500ab35f6e0a36a41d49c628f49c4e7.pdf",
+    "abstract":  "World models are critical for autonomous driving to simulate environmental dynamics and generate synthetic data.\nExisting methods struggle to disentangle ego-vehicle motion (perspective shifts) from scene evolvement (agent interactions), leading to suboptimal predictions. Instead, we propose to separate environmental changes from ego-motion by leveraging the scene-centric coordinate systems. In this paper, we introduce COME: a framework that integrates scene-centric forecasting Control into the Occupancy world ModEl. Specifically, COME first generates ego-irrelevant, spatially consistent future features through a scene-centric prediction branch, which are then converted into scene condition using a tailored ControlNet. These condition features are subsequently injected into the occupancy world model, enabling more accurate and controllable future occupancy predictions. Experimental results on the nuScenes-Occ3D dataset show that COME achieves consistent and significant improvements over state-of-the-art (SOTA) methods across diverse configurations, including different input sources (ground-truth, camera-based, fusion-based occupancy) and prediction horizons (3s and 8s). For example, under the same settings, COME achieves 26.3% better mIoU metric than DOME and 23.7% better mIoU metric than UniScene. These results highlight the efficacy of disentangled representation learning in enhancing spatio-temporal prediction fidelity for world models. Code is available at https://github.com/synsin0/COME.",
+    "keywords":  [
+                     "Generative Models",
+                     "Autonomous Driving",
+                     "Occupancy Forecasting",
+                     "Occupancy Generation",
+                     "ControlNet"
+                 ],
+    "local_pdf":  "COME_NeurIPS2025.pdf"
+}

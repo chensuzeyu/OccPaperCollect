@@ -1,0 +1,16 @@
+{
+  "title": "GaussianOcc: Fully Self-supervised and Efficient 3D Occupancy Estimation with Gaussian Splatting",
+  "short_title": "GaussianOcc",
+  "authors": ["Gan", "et al."],
+  "first_author": "Gan",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2408.11447",
+  "arxiv_url": "https://arxiv.org/abs/2408.11447",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Gan_GaussianOcc_Fully_Self-supervised_and_Efficient_3D_Occupancy_Estimation_with_Gaussian_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "GaussianOcc_ICCV2025.pdf",
+  "keywords": ["occupancy", "Gaussian splatting", "self-supervised", "3D estimation"],
+  "notes": null
+}

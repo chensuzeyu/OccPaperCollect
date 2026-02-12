@@ -1,0 +1,16 @@
+{
+  "title": "AGO: Adaptive Grounding for Open World 3D Occupancy Prediction",
+  "short_title": "AGO",
+  "authors": ["Li", "et al."],
+  "first_author": "Li",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2504.10117",
+  "arxiv_url": "https://arxiv.org/abs/2504.10117",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Li_AGO_Adaptive_Grounding_for_Open_World_3D_Occupancy_Prediction_ICCV_2025_paper.pdf",
+  "project_url": "https://edwardleelpz.github.io/AGO_Page",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "AGO_ICCV2025.pdf",
+  "keywords": ["occupancy", "open world", "adaptive grounding", "3D prediction"],
+  "notes": null
+}

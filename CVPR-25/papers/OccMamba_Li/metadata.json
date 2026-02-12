@@ -1,0 +1,16 @@
+{
+  "title": "OccMamba: Semantic Occupancy Prediction with State Space Models",
+  "short_title": "OccMamba",
+  "authors": ["Li", "et al."],
+  "first_author": "Li",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2408.09859",
+  "arxiv_url": "https://arxiv.org/abs/2408.09859",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_OccMamba_Semantic_Occupancy_Prediction_with_State_Space_Models_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/USTCLH/OccMamba",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "OccMamba_CVPR2025.pdf",
+  "keywords": ["occupancy", "semantic occupancy", "Mamba", "state space model", "3D prediction"],
+  "notes": "First author: Heng Li. USTC, Shanghai AI Lab, Stanford."
+}

@@ -1,0 +1,16 @@
+{
+  "title": "SDGOCC: Semantic and Depth-Guided Bird's-Eye View Transformation for 3D Multimodal Occupancy Prediction",
+  "short_title": "SDGOCC",
+  "authors": ["Duan", "et al."],
+  "first_author": "Duan",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2507.17083",
+  "arxiv_url": "https://arxiv.org/abs/2507.17083",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_SDGOCC_Semantic_and_Depth-Guided_Birds-Eye_View_Transformation_for_3D_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/DzpLab/SDGOCC",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "arxiv",
+  "local_pdf": "SDGOCC_CVPR2025.pdf",
+  "keywords": ["occupancy", "multimodal", "BEV", "depth-guided", "3D prediction"],
+  "notes": "First author: Zaipeng Duan."
+}

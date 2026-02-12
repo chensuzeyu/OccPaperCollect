@@ -1,0 +1,26 @@
+﻿{
+    "title":  "ODG: Occupancy Prediction Using Dual Gaussians",
+    "short_title":  "ODG",
+    "authors":  [
+                    "Yunxiao Shi",
+                    "Yinhao Zhu",
+                    "Hong Cai",
+                    "Shizhong Han",
+                    "Jisoo Jeong",
+                    "Amin Ansari",
+                    "Fatih Porikli"
+                ],
+    "first_author":  "Shi",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=CkmLys7ipp",
+    "openreview_id":  "CkmLys7ipp",
+    "pdf_url":  "/pdf/ace387ee7e9dada09fa110400dbde09112d691f9.pdf",
+    "abstract":  "Occupancy prediction infers fine-grained 3D geometry and semantics from camera images of the surrounding environment, making it a critical perception task for autonomous driving. Existing methods either adopt dense grids as scene representation which is difficult to scale to high resolution, or learn the entire scene using a single set of sparse queries, which is insufficient to handle the various object characteristics. In this paper, we present ODG, a hierarchical dual sparse Gaussian representation to effectively capture complex scene dynamics. Building upon the observation that driving scenes can be universally decomposed into static and dynamic counterparts, we define dual Gaussian queries to better model the diverse scene objects. We utilize a hierarchical Gaussian transformer to predict the occupied voxel centers and semantic classes along with the Gaussian parameters. Leveraging the real-time rendering capability of 3D Gaussian Splatting, we also impose rendering supervision with available depth and semantic map annotations injecting pixel-level alignment to boost occupancy learning. Extensive experiments on the Occ3D-nuScenes and Occ3D-Waymo benchmarks demonstrate our proposed method sets new state-of-the-art results while maintaining low inference cost.",
+    "keywords":  [
+                     "occupancy prediction",
+                     "Gaussian splatting",
+                     "autonomous driving"
+                 ],
+    "local_pdf":  "ODG_NeurIPS2025.pdf"
+}

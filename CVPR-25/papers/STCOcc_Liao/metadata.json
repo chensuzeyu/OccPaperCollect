@@ -1,0 +1,16 @@
+{
+  "title": "STCOcc: Sparse Spatial-Temporal Cascade Renovation for 3D Occupancy and Scene Flow Prediction",
+  "short_title": "STCOcc",
+  "authors": ["Liao", "et al."],
+  "first_author": "Liao",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2504.19749",
+  "arxiv_url": "https://arxiv.org/abs/2504.19749",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liao_STCOcc_Sparse_Spatial-Temporal_Cascade_Renovation_for_3D_Occupancy_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/lzzzzzm/STCOcc",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "arxiv",
+  "local_pdf": "STCOcc_CVPR2025.pdf",
+  "keywords": ["occupancy", "scene flow", "sparse", "spatial-temporal", "3D prediction"],
+  "notes": "First author: Zhimin Liao."
+}

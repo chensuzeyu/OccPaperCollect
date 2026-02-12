@@ -1,0 +1,16 @@
+{
+  "title": "GaussRender: Learning 3D Occupancy with Gaussian Rendering",
+  "short_title": "GaussRender",
+  "authors": ["Chambon", "et al."],
+  "first_author": "Chambon",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2502.05040",
+  "arxiv_url": "https://arxiv.org/abs/2502.05040",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chambon_GaussRender_Learning_3D_Occupancy_with_Gaussian_Rendering_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "GaussRender_ICCV2025.pdf",
+  "keywords": ["occupancy", "Gaussian rendering", "3D"],
+  "notes": null
+}

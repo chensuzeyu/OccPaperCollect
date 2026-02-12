@@ -1,0 +1,28 @@
+{
+  "title": "CSV-Occ: Fusing Multi-frame Alignment for Occupancy Prediction with Temporal Cross State Space Model and Central Voting Mechanism",
+  "short_title": "CSV-Occ",
+  "authors": [
+    "Ziming Zhu",
+    "Yu Zhu",
+    "Jiahao Chen",
+    "LingXiaofeng",
+    "Huanlei Chen",
+    "Lihua Sun"
+  ],
+  "first_author": "Zhu",
+  "venue": "ICML 2025",
+  "presentation_type": "poster",
+  "openreview_url": "https://openreview.net/forum?id=7Dt3nH5TZq",
+  "openreview_id": "7Dt3nH5TZq",
+  "pdf_url": "/pdf/fc2a91d1718b53b0688bd8961afc73c2c46a322f.pdf",
+  "abstract": "Recently, image-based 3D semantic occupancy prediction has become a hot topic in 3D scene understanding for autonomous driving. \nCompared with the bounding box form of 3D object detection, the ability to describe the fine-grained contours of any obstacles in the scene is the key insight of voxel occupancy representation, which facilitates subsequent tasks of autonomous driving. In this work, we propose CSV-Occ to address the following two challenges: (1) Existing methods fuse temporal information based on the attention mechanism, but are limited by high complexity. We extend the state space model to support multi-input sequence interaction and conduct temporal modeling in a cascaded architecture, thereby reducing the computational complexity from quadratic to linear. (2) Existing methods are limited by semantic ambiguity, resulting in the centers of foreground objects often being predicted as empty voxels. We enable the model to explicitly vote for the instance center to which the voxels belong and spontaneously learn to utilize the other voxel features of the same instance to update the semantics of the internal vacancies of the objects from coarse to fine. Experiments on the Occ3D-nuScenes dataset show that our method achieves state-of-the-art in camera-based 3D semantic occupancy prediction and also performs well on lidar point cloud semantic segmentation on the nuScenes dataset. Therefore, we believe that CSV-Occ is beneficial to the community and industry of autonomous vehicles.",
+  "keywords": [
+    "3D Semantic Occupancy Prediction",
+    "Semantic Segmentation",
+    "Autonomous Driving",
+    "Temporal Information",
+    "State Space Model",
+    "Voting Mechanism"
+  ],
+  "local_pdf": ""
+}

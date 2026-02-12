@@ -1,0 +1,16 @@
+{
+  "title": "ALOcc: Adaptive Lifting-based 3D Semantic Occupancy and Cost Volume-based Flow Predictions",
+  "short_title": "ALOcc",
+  "authors": ["Chen", "et al."],
+  "first_author": "Chen",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2411.07725",
+  "arxiv_url": "https://arxiv.org/abs/2411.07725",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_ALOcc_Adaptive_Lifting-based_3D_Semantic_Occupancy_and_Cost_Volume-based_Flow_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "ALOcc_ICCV2025.pdf",
+  "keywords": ["occupancy", "semantic occupancy", "cost volume", "flow prediction", "lifting"],
+  "notes": null
+}

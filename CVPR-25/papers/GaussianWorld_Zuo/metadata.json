@@ -1,0 +1,16 @@
+{
+  "title": "Gaussian World Model for Streaming 3D Occupancy Prediction",
+  "short_title": "GaussianWorld",
+  "authors": ["Zuo", "et al."],
+  "first_author": "Zuo",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2412.10373",
+  "arxiv_url": "https://arxiv.org/abs/2412.10373",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zuo_GaussianWorld_Gaussian_World_Model_for_Streaming_3D_Occupancy_Prediction_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/zuosc19/GaussianWorld",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "GaussianWorld_CVPR2025.pdf",
+  "keywords": ["occupancy", "world model", "streaming", "Gaussian", "3D prediction", "autonomous driving"],
+  "notes": "First author: Sicheng Zuo. Tsinghua University."
+}

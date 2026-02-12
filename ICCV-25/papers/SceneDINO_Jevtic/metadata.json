@@ -1,0 +1,16 @@
+{
+  "title": "Feed-Forward SceneDINO for Unsupervised Semantic Scene Completion",
+  "short_title": "SceneDINO",
+  "authors": ["Jevtić", "et al."],
+  "first_author": "Jevtić",
+  "venue": "ICCV 2025",
+  "arxiv_id": null,
+  "arxiv_url": null,
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Jevtic_Feed-Forward_SceneDINO_for_Unsupervised_Semantic_Scene_Completion_ICCV_2025_paper.pdf",
+  "project_url": "https://visinf.github.io/scenedino/",
+  "abstract": "See CVF for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "SceneDINO_ICCV2025.pdf",
+  "keywords": ["occupancy", "semantic scene completion", "SSC", "unsupervised", "DINO", "3D"],
+  "notes": "First author: Aleksandar Jevtić. TU Munich, TU Darmstadt, University of Oxford."
+}

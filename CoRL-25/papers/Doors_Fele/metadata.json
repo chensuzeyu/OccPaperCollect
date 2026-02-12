@@ -1,0 +1,24 @@
+﻿{
+    "title":  "$Door(s)$: Junction State Estimation for Efficient Exploration in Reinforcement Learning",
+    "short_title":  "Doors",
+    "authors":  [
+                    "Benjamin Fele",
+                    "Jan Babic"
+                ],
+    "first_author":  "Fele",
+    "venue":  "CoRL 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=NtnPVwUCAH",
+    "openreview_id":  "NtnPVwUCAH",
+    "pdf_url":  "/pdf/75ff4b72b7deee1ac89955013d3c0defe8a76bb0.pdf",
+    "abstract":  "Exploration is one of the important bottlenecks for efficient learning in reinforcement learning, especially in the presence of sparse rewards. One way to traverse the environment faster is by passing through junctions, or metaphorical doors, in the state space. We propose a novel heuristic, $Door(s)$, focused on such narrow passages that serve as pathways to a large number of other states. Our approach works by estimating the state occupancy distribution and allows computation of its entropy, which forms the basis for our measure. Its computation is more sample-efficient compared to other similar methods and robustly works over longer horizons. Our results highlight the detection of dead-end states, show increased exploration efficiency, and demonstrate that $Door(s)$ encodes specific behaviors useful for downstream learning of various robotic manipulation tasks.",
+    "keywords":  [
+                     "Reinforcement learning",
+                     "Intrinsic motivation",
+                     "Junction States",
+                     "Information theory",
+                     "Heuristic",
+                     "Exploration"
+                 ],
+    "local_pdf":  "Doors_CoRL2025.pdf"
+}

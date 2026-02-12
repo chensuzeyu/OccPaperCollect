@@ -1,0 +1,16 @@
+{
+  "title": "Disentangling Instance and Scene Contexts for 3D Semantic Scene Completion",
+  "short_title": "DISC",
+  "authors": ["Liu", "et al."],
+  "first_author": "Liu",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2507.08416",
+  "arxiv_url": "https://arxiv.org/abs/2507.08416",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Liu_Disentangling_Instance_and_Scene_Contexts_for_3D_Semantic_Scene_Completion_ICCV_2025_paper.pdf",
+  "project_url": "https://github.com/Enyu-Liu/DISC",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "DISC_ICCV2025.pdf",
+  "keywords": ["occupancy", "semantic scene completion", "SSC", "instance", "scene", "class query"],
+  "notes": "First author: Enyu Liu. Huazhong University of Science and Technology."
+}

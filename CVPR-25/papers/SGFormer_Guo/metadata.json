@@ -1,0 +1,16 @@
+{
+  "title": "SGFormer: Satellite-Ground Fusion for 3D Semantic Scene Completion",
+  "short_title": "SGFormer",
+  "authors": ["Guo", "et al."],
+  "first_author": "Guo",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2503.16825",
+  "arxiv_url": "https://arxiv.org/abs/2503.16825",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_SGFormer_Satellite-Ground_Fusion_for_3D_Semantic_Scene_Completion_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/gxytcrc/SGFormer",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "SGFormer_CVPR2025.pdf",
+  "keywords": ["occupancy", "semantic scene completion", "SSC", "satellite-ground", "3D"],
+  "notes": "First author: Xiyue Guo. Zhejiang University, CUHK-Shenzhen."
+}

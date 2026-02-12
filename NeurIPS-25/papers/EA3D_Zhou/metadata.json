@@ -1,0 +1,24 @@
+﻿{
+    "title":  "EA3D: Online Open-World 3D Object Extraction from Streaming Videos",
+    "short_title":  "EA3D",
+    "authors":  [
+                    "Xiaoyu Zhou",
+                    "Jingqi Wang",
+                    "Yuang Jia",
+                    "Yongtao Wang",
+                    "Deqing Sun",
+                    "Ming-Hsuan Yang"
+                ],
+    "first_author":  "Zhou",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=7aDKD8RBUw",
+    "openreview_id":  "7aDKD8RBUw",
+    "pdf_url":  "/pdf/488adcd694cb50aa6719fe04c53a4d05a5a48809.pdf",
+    "abstract":  "Current 3D scene understanding methods are limited by offline-collected multi-view data or pre-constructed 3D geometry. In this paper, we present ExtractAnything3D (EA3D), a unified online framework for open-world 3D object extraction that enables simultaneous geometric reconstruction and holistic scene understanding. Given a streaming video, EA3D dynamically interprets each frame using vision-language and 2D vision foundation encoders to extract object-level knowledge. This knowledge is integrated and embedded into a Gaussian feature map via a feed-forward online update strategy. We then iteratively estimate visual odometry from historical frames and incrementally update online Gaussian features with new observations. A recurrent joint optimization module directs the model\u0027s attention to regions of interest, simultaneously enhancing both geometric reconstruction and semantic understanding. Extensive experiments across diverse benchmarks and tasks, including photo-realistic rendering, semantic and instance segmentation, 3D bounding box and semantic occupancy estimation, and 3D mesh generation, demonstrate the effectiveness of EA3D. Our method establishes a unified and efficient framework for joint online 3D reconstruction and holistic scene understanding, enabling a broad range of downstream tasks. The project webpage is available at \\url{https://github.com/VDIGPKU/EA3D}.",
+    "keywords":  [
+                     "3D Vision",
+                     "Visual Understanding"
+                 ],
+    "local_pdf":  "EA3D_NeurIPS2025.pdf"
+}

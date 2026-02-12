@@ -1,0 +1,16 @@
+{
+  "title": "GaussianFormer-2: Probabilistic Gaussian Superposition for Efficient 3D Occupancy Prediction",
+  "short_title": "GaussianFormer-2",
+  "authors": ["Huang", "et al."],
+  "first_author": "Huang",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2412.04384",
+  "arxiv_url": "https://arxiv.org/abs/2412.04384",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Huang_GaussianFormer-2_Probabilistic_Gaussian_Superposition_for_Efficient_3D_Occupancy_Prediction_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/huang-yh/GaussianFormer",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "GaussianFormer2_CVPR2025.pdf",
+  "keywords": ["occupancy", "3D prediction", "Gaussian superposition", "probabilistic", "autonomous driving"],
+  "notes": "First author: Yuanhui Huang. Tsinghua University, Phigent Robotics."
+}

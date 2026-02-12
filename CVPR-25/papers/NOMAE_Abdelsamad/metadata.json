@@ -1,0 +1,16 @@
+{
+  "title": "Multi-Scale Neighborhood Occupancy Masked Autoencoder for Self-Supervised Learning in LiDAR Point Clouds",
+  "short_title": "NOMAE",
+  "authors": ["Abdelsamad", "et al."],
+  "first_author": "Abdelsamad",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2502.20316",
+  "arxiv_url": "https://arxiv.org/abs/2502.20316",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Abdelsamad_Multi-Scale_Neighborhood_Occupancy_Masked_Autoencoder_for_Self-Supervised_CVPR_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "arxiv",
+  "local_pdf": "NOMAE_CVPR2025.pdf",
+  "keywords": ["occupancy", "LiDAR", "masked autoencoder", "self-supervised", "point cloud"],
+  "notes": "First author: Mohamed Abdelsamad."
+}

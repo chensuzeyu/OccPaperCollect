@@ -1,0 +1,192 @@
+[
+  {
+    "num": 1,
+    "dir_name": "CADGrasp_Zhang",
+    "title": "CADGrasp: Learning Contact and Collision Aware General Dexterous Grasping in Cluttered Scenes",
+    "short_title": "CADGrasp",
+    "first_author": "Zhang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=CB8jwNE2vV",
+    "pdf_url": "/pdf/adac0cb755f3a9f9086a4a62c38b5f41cc58206b.pdf"
+  },
+  {
+    "num": 2,
+    "dir_name": "IOSTOM_Pham",
+    "title": "IOSTOM: Offline Imitation Learning from Observations via State Transition Occupancy Matching",
+    "short_title": "IOSTOM",
+    "first_author": "Pham",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=OEp1J4V2fN",
+    "pdf_url": "/pdf/e73319769efe9232fee21c9c1f024e326b372b52.pdf"
+  },
+  {
+    "num": 3,
+    "dir_name": "CymbaDiff_Liang",
+    "title": "CymbaDiff: Structured Spatial Diffusion for Sketch-based 3D Semantic Urban Scene Generation",
+    "short_title": "CymbaDiff",
+    "first_author": "Liang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=hFyIIqmcqf",
+    "pdf_url": "/pdf/4d638dd728c9363d2d2851af6c5127a9ae046b98.pdf"
+  },
+  {
+    "num": 4,
+    "dir_name": "TowardsfoundationalLiDARwor_Liu",
+    "title": "Towards foundational LiDAR world models with efficient latent flow matching",
+    "short_title": "Towards foundational LiDAR wor",
+    "first_author": "Liu",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=OyX9cC9WaV",
+    "pdf_url": "/pdf/21dcad91c68d16728c9f000317d63e17df0a19ec.pdf"
+  },
+  {
+    "num": 5,
+    "dir_name": "IPFormer_Gross",
+    "title": "IPFormer: Visual 3D Panoptic Scene Completion with Context-Adaptive Instance Proposals",
+    "short_title": "IPFormer",
+    "first_author": "Gross",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=Y0hymKkn2a",
+    "pdf_url": "/pdf/35b9872408568deb352cfc6caa261d4f83c96656.pdf"
+  },
+  {
+    "num": 6,
+    "dir_name": "RayFusion_Wang",
+    "title": "RayFusion: Ray Fusion Enhanced Collaborative Visual Perception",
+    "short_title": "RayFusion",
+    "first_author": "Wang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=eK61hWzAAl",
+    "pdf_url": "/pdf/1eaa8cda2389c9d1cde2158a91363b831333054e.pdf"
+  },
+  {
+    "num": 7,
+    "dir_name": "RaySt3R_Duisterhof",
+    "title": "RaySt3R: Predicting Novel Depth Maps for Zero-Shot Object Completion",
+    "short_title": "RaySt3R",
+    "first_author": "Duisterhof",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=NpRbTTgRBG",
+    "pdf_url": "/pdf/5ce1e90c1710406515590644e0b438d818e0a51d.pdf"
+  },
+  {
+    "num": 8,
+    "dir_name": "LearningTemporal3DSemantic_Wang",
+    "title": "Learning Temporal 3D Semantic Scene Completion via Optical Flow Guidance",
+    "short_title": "Learning Temporal 3D Semantic",
+    "first_author": "Wang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=nK5WovvHk2",
+    "pdf_url": "/pdf/3e84529ff6f6fc8589a2cd58b74951051b5baa57.pdf"
+  },
+  {
+    "num": 9,
+    "dir_name": "SeethroughtheDark_Wuyuan",
+    "title": "See through the Dark: Learning Illumination-affined Representations for Nighttime Occupancy Prediction",
+    "short_title": "See through the Dark",
+    "first_author": "Wuyuan",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=2Yk4GnB3DY",
+    "pdf_url": "/pdf/55da50065049610ae5d89636cefc6fb6ddd81189.pdf"
+  },
+  {
+    "num": 10,
+    "dir_name": "ObjectConceptsEmergefromMo_Liang",
+    "title": "Object Concepts Emerge from Motion",
+    "short_title": "Object Concepts Emerge from Mo",
+    "first_author": "Liang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=QFOhUboCvp",
+    "pdf_url": "/pdf/23d76360bce99a37c8bb51a62d73a5dafaf7c736.pdf"
+  },
+  {
+    "num": 11,
+    "dir_name": "COME_Shi",
+    "title": "COME: Adding Scene-Centric Forecasting Control to Occupancy World Model",
+    "short_title": "COME",
+    "first_author": "Shi",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=EYxLmZRSK1",
+    "pdf_url": "/pdf/abf243e70500ab35f6e0a36a41d49c628f49c4e7.pdf"
+  },
+  {
+    "num": 12,
+    "dir_name": "RLGF_Yan",
+    "title": "RLGF: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation",
+    "short_title": "RLGF",
+    "first_author": "Yan",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=EATkC9iHE3",
+    "pdf_url": "/pdf/8b4d444543586225a5063e12afc6cf6ddd469eb5.pdf"
+  },
+  {
+    "num": 13,
+    "dir_name": "ODG_Shi",
+    "title": "ODG: Occupancy Prediction Using Dual Gaussians",
+    "short_title": "ODG",
+    "first_author": "Shi",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=CkmLys7ipp",
+    "pdf_url": "/pdf/ace387ee7e9dada09fa110400dbde09112d691f9.pdf"
+  },
+  {
+    "num": 14,
+    "dir_name": "EA3D_Zhou",
+    "title": "EA3D: Online Open-World 3D Object Extraction from Streaming Videos",
+    "short_title": "EA3D",
+    "first_author": "Zhou",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=7aDKD8RBUw",
+    "pdf_url": "/pdf/488adcd694cb50aa6719fe04c53a4d05a5a48809.pdf"
+  },
+  {
+    "num": 15,
+    "dir_name": "QuadricFormer_Zuo",
+    "title": "QuadricFormer: Scene as Superquadrics for 3D Semantic Occupancy Prediction",
+    "short_title": "QuadricFormer",
+    "first_author": "Zuo",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=eZNdkwJYbN",
+    "pdf_url": "/pdf/cc6e0a2d054469a238a6da05b30dce8f439f11f3.pdf"
+  },
+  {
+    "num": 16,
+    "dir_name": "X-Scene_Yang",
+    "title": "X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability",
+    "short_title": "X-Scene",
+    "first_author": "Yang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=QclFsekj9B",
+    "pdf_url": "/pdf/65d76183b65a7b09ddfddb344a4153a37ff58b84.pdf"
+  },
+  {
+    "num": 17,
+    "dir_name": "DynamicFocusedMaskingforAu_Sun",
+    "title": "Dynamic Focused Masking for Autoregressive Embodied Occupancy Prediction",
+    "short_title": "Dynamic Focused Masking for Au",
+    "first_author": "Sun",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=PvEnRUWSfn",
+    "pdf_url": "/pdf/d1b16ed95f3ac89f3c050d3e33308d27ff8669e6.pdf"
+  },
+  {
+    "num": 18,
+    "dir_name": "SQS_Zhang",
+    "title": "SQS: Enhancing Sparse Perception Models via Query-based Splatting in Autonomous Driving",
+    "short_title": "SQS",
+    "first_author": "Zhang",
+    "presentation": "spotlight",
+    "openreview_url": "https://openreview.net/forum?id=plpAecfkf4",
+    "pdf_url": "/pdf/937f7bc959b0c1728e18e30846862d59cb2fdb74.pdf"
+  },
+  {
+    "num": 19,
+    "dir_name": "VoxDet_Li",
+    "title": "VoxDet: Rethinking 3D Semantic Scene Completion as Dense Object Detection",
+    "short_title": "VoxDet",
+    "first_author": "Li",
+    "presentation": "spotlight",
+    "openreview_url": "https://openreview.net/forum?id=lMhNrt0Bnm",
+    "pdf_url": "/pdf/fe865a04e4d87f0d1c8c99b735a4a2e512c3beab.pdf"
+  }
+]

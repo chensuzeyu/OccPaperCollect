@@ -1,0 +1,28 @@
+﻿{
+    "title":  "FetchBot: Learning Generalizable Object Fetching in Cluttered Scenes via Zero-Shot Sim2Real",
+    "short_title":  "FetchBot",
+    "authors":  [
+                    "Weiheng Liu",
+                    "Yuxuan Wan",
+                    "Jilong Wang",
+                    "Yuxuan Kuang",
+                    "Xuesong Shi",
+                    "Haoran Li",
+                    "Dongbin Zhao",
+                    "Zhizheng Zhang",
+                    "He Wang"
+                ],
+    "first_author":  "Liu",
+    "venue":  "CoRL 2025",
+    "presentation_type":  "oral",
+    "openreview_url":  "https://openreview.net/forum?id=5ySSVlJBOn",
+    "openreview_id":  "5ySSVlJBOn",
+    "pdf_url":  "/pdf/233ed47c2f534c8b84d1e1c2693dd26cc3bf657a.pdf",
+    "abstract":  "Generalizable object fetching in cluttered scenes remains a fundamental and application-critical challenge in embodied AI. Closely packed objects cause inevitable occlusions, making safe action generation particularly difficult. Under such partial observability, effective policies must not only generalize across diverse objects and layouts but also reason about occlusion to avoid collisions. However, collecting large-scale real-world data for this task remains prohibitively expensive, leaving this problem largely unsolved. In this paper, we introduce FetchBot, a sim-to-real framework for this challenge. We first curate a large-scale synthetic dataset featuring 1M diverse scenes and 500k representative demonstrations. Based on this dataset, FetchBot employs a depth-conditioned method for action generation, which leverages structural cues to enable robust obstacle-aware action planning. However, depth is perfect in simulation but noisy in real-world environments. To address this sim-to-real gap, FetchBot predicts depth from RGB inputs using a foundation model and integrates local occupancy prediction as a co-training task, providing a generalizable latent representation for sim-to-real transfer. Extensive experiments in simulation and real-world environments demonstrate FetchBot’s strong zero-shot sim-to-real transfer, effective clutter handling, and adaptability to novel scenarios. In cluttered environments, it achieves an average success rate of 89.95%, significantly outperforming prior methods. Moreover, FetchBot demonstrates excellent robustness in challenging cases, such as fetching transparent, reflective, and irregular objects, highlighting its practical value.",
+    "keywords":  [
+                     "Generalizable Fetching",
+                     "Sim2Real",
+                     "Occlusion Handling"
+                 ],
+    "local_pdf":  "FetchBot_CoRL2025.pdf"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "DIO: Decomposable Implicit 4D Occupancy-Flow World Model",
+  "short_title": "DIO",
+  "authors": ["Diehl", "et al."],
+  "first_author": "Diehl",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2412.13772",
+  "arxiv_url": "https://arxiv.org/abs/2412.13772",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Diehl_DIO_Decomposable_Implicit_4D_Occupancy-Flow_World_Model_CVPR_2025_paper.pdf",
+  "project_url": "https://waabi.ai/research/dio",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "DIO_CVPR2025.pdf",
+  "keywords": ["occupancy", "occupancy-flow", "4D", "world model", "autonomous driving"],
+  "notes": "First author: Christopher Diehl. Waabi."
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Occupancy Learning with Spatiotemporal Memory",
+  "short_title": "ST-Occ",
+  "authors": ["Leng", "et al."],
+  "first_author": "Leng",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2508.04705",
+  "arxiv_url": "https://arxiv.org/abs/2508.04705",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Leng_Occupancy_Learning_with_Spatiotemporal_Memory_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "ST-Occ_ICCV2025.pdf",
+  "keywords": ["occupancy", "spatiotemporal", "memory"],
+  "notes": null
+}

@@ -1,0 +1,26 @@
+﻿{
+    "title":  "RayFusion: Ray Fusion Enhanced Collaborative Visual Perception",
+    "short_title":  "RayFusion",
+    "authors":  [
+                    "Shaohong Wang",
+                    "Bin Lu",
+                    "Xinyu Xiao",
+                    "Hanzhi Zhong",
+                    "Bowen Pang",
+                    "Tong Wang",
+                    "Zhiyu Xiang",
+                    "Hangguan Shan",
+                    "Eryun Liu"
+                ],
+    "first_author":  "Wang",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=eK61hWzAAl",
+    "openreview_id":  "eK61hWzAAl",
+    "pdf_url":  "/pdf/1eaa8cda2389c9d1cde2158a91363b831333054e.pdf",
+    "abstract":  "Collaborative visual perception methods have gained widespread attention in the autonomous driving community in recent years due to their ability to address sensor limitation problems. However, the absence of explicit depth information often makes it difficult for camera-based perception systems, e.g., 3D object detection, to generate accurate predictions. To alleviate the ambiguity in depth estimation, we propose RayFusion, a ray-based fusion method for collaborative visual  perception. Using ray occupancy information from collaborators, RayFusion reduces redundancy and false positive predictions along camera rays, enhancing the detection performance of purely camera-based collaborative perception systems. Comprehensive experiments show that our method consistently outperforms existing state-of-the-art models, substantially advancing the performance of collaborative visual perception. Our code will be made publicly available.",
+    "keywords":  [
+                     "Collaborative visual perception; 3D object detection; ray occupancy information."
+                 ],
+    "local_pdf":  "RayFusion_NeurIPS2025.pdf"
+}

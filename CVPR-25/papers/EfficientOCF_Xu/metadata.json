@@ -1,0 +1,16 @@
+{
+  "title": "Spatiotemporal Decoupling for Efficient Vision-Based Occupancy Forecasting",
+  "short_title": "EfficientOCF",
+  "authors": ["Xu", "et al."],
+  "first_author": "Xu",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2411.14169",
+  "arxiv_url": "https://arxiv.org/abs/2411.14169",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_Spatiotemporal_Decoupling_for_Efficient_Vision-Based_Occupancy_Forecasting_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/bit-xjy/efficientocf",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "EfficientOCF_CVPR2025.pdf",
+  "keywords": ["occupancy", "occupancy forecasting", "spatiotemporal", "efficient", "vision-based"],
+  "notes": "First author: Jingyi Xu. Shanghai Jiao Tong University."
+}

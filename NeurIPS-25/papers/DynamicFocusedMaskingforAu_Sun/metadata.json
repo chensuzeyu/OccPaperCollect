@@ -1,0 +1,21 @@
+﻿{
+    "title":  "Dynamic Focused Masking for Autoregressive Embodied Occupancy Prediction",
+    "short_title":  "Dynamic Focused Masking for Au",
+    "authors":  [
+                    "Yuan Sun",
+                    "Julio Contreras",
+                    "Jorge Ortiz"
+                ],
+    "first_author":  "Sun",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=PvEnRUWSfn",
+    "openreview_id":  "PvEnRUWSfn",
+    "pdf_url":  "/pdf/d1b16ed95f3ac89f3c050d3e33308d27ff8669e6.pdf",
+    "abstract":  "Visual autoregressive modeling has recently demonstrated potential in image tasks by enabling coarse-to-fine, next-level prediction. Most indoor 3D occupancy prediction methods, however, continue to rely on dense voxel grids and convolution-heavy backbones, which incur high computational costs when applying such coarse-to-fine frameworks. In contrast, cost-efficient alternatives based on Gaussian representations—particularly in the context of multi-scale autoregression—remain underexplored. To bridge this gap, we propose DFGauss, a dynamic focused masking framework for multi-scale 3D Gaussian representation. Unlike conventional approaches that refine voxel volumes or 2D projections, DFGauss directly operates in the 3D Gaussian parameter space, progressively refining representations across resolutions under hierarchical supervision. Each finer-scale Gaussian is conditioned on its coarser-level counterpart, forming a scale-wise autoregressive process. To further enhance efficiency, we introduce an importance-guided refinement strategy that selectively propagates informative Gaussians across scales, enabling spatially adaptive detail modeling. Experiments on 3D occupancy benchmarks demonstrate that DFGauss achieves competitive performance, highlighting the promise of autoregressive modeling for scalable 3D occupancy prediction.",
+    "keywords":  [
+                     "3D gaussian splatting",
+                     "indoor Occupancy Prediciton"
+                 ],
+    "local_pdf":  "Dynamic Focused Masking for Au_NeurIPS2025.pdf"
+}

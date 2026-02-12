@@ -1,0 +1,22 @@
+﻿{
+    "title":  "Object Concepts Emerge from Motion",
+    "short_title":  "Object Concepts Emerge from Mo",
+    "authors":  [
+                    "Haoqian Liang",
+                    "Xiaohui Wang",
+                    "Zhichao Li",
+                    "Ya Yang",
+                    "Naiyan Wang"
+                ],
+    "first_author":  "Liang",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=QFOhUboCvp",
+    "openreview_id":  "QFOhUboCvp",
+    "pdf_url":  "/pdf/23d76360bce99a37c8bb51a62d73a5dafaf7c736.pdf",
+    "abstract":  "Object concepts play a foundational role in human visual cognition, enabling perception, memory, and interaction in the physical world. Inspired by findings in developmental psychology—where infants are shown to acquire object understanding through observation of motion—we propose a biologically inspired framework for learning object-centric visual representations in an unsupervised manner.\nWe were inspired by the insight that motion boundary serves as a strong signal for object-level grouping, which can be used to derive pseudo-instance supervision from raw videos.\nConcretely, we generate motion-based instance masks using off-the-shelf optical flow and clustering algorithms, and use them to train visual encoders via contrastive learning. Our framework is fully label-free and does not rely on camera calibration, making it scalable to large-scale unstructured video data.\nWe evaluate our approach on three downstream tasks spanning both low-level (monocular depth estimation) and high-level (3D object detection and occupancy prediction) vision. Our models outperform previous supervised and self-supervised baselines and demonstrate strong generalization to unseen scenes. These results suggest that motion-induced object representations offer a compelling alternative to existing vision foundation models, capturing a crucial but overlooked level of abstraction: the visual instance.\nThe implementation can be found here: https://github.com/yulemao/Object_Concepts_Emerge_from_Motion",
+    "keywords":  [
+                     "Pretraining; Visual Foundation Models; Object Discovery"
+                 ],
+    "local_pdf":  "Object Concepts Emerge from Mo_NeurIPS2025.pdf"
+}

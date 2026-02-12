@@ -1,0 +1,24 @@
+﻿{
+    "title":  "X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability",
+    "short_title":  "X-Scene",
+    "authors":  [
+                    "Yu Yang",
+                    "Alan Liang",
+                    "Jianbiao Mei",
+                    "Yukai Ma",
+                    "Yong Liu",
+                    "Gim Hee Lee"
+                ],
+    "first_author":  "Yang",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=QclFsekj9B",
+    "openreview_id":  "QclFsekj9B",
+    "pdf_url":  "/pdf/65d76183b65a7b09ddfddb344a4153a37ff58b84.pdf",
+    "abstract":  "Diffusion models are advancing autonomous driving by enabling realistic data synthesis, predictive end-to-end planning, and closed-loop simulation, with a primary focus on temporally consistent generation. However, large-scale 3D scene generation requiring spatial coherence remains underexplored. In this paper, we present X-Scene, a novel framework for large-scale driving scene generation that achieves geometric intricacy, appearance fidelity, and flexible controllability. Specifically, X-Scene supports multi-granular control, including low-level layout conditioning driven by user input or text for detailed scene composition, and high-level semantic guidance informed by user intent and LLM-enriched prompts for efficient customization. To enhance geometric and visual fidelity, we introduce a unified pipeline that sequentially generates 3D semantic occupancy and corresponding multi-view images and videos, ensuring alignment and temporal consistency across modalities. We further extend local regions into large-scale scenes via consistency-aware outpainting, which extrapolates occupancy and images from previously generated areas to maintain spatial and visual coherence. The resulting scenes are lifted into high-quality 3DGS representations, supporting diverse applications such as simulation and scene exploration. Extensive experiments demonstrate that X-Scene substantially advances controllability and fidelity in large-scale scene generation, empowering data generation and simulation for autonomous driving.",
+    "keywords":  [
+                     "3D Scene Generation",
+                     "Autonomous Driving"
+                 ],
+    "local_pdf":  "X-Scene_NeurIPS2025.pdf"
+}

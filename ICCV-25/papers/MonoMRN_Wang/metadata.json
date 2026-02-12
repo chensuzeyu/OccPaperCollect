@@ -1,0 +1,16 @@
+{
+  "title": "Monocular Semantic Scene Completion via Masked Recurrent Networks",
+  "short_title": "MonoMRN",
+  "authors": ["Wang", "et al."],
+  "first_author": "Wang",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2507.17661",
+  "arxiv_url": "https://arxiv.org/abs/2507.17661",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_Monocular_Semantic_Scene_Completion_via_Masked_Recurrent_Networks_ICCV_2025_paper.pdf",
+  "project_url": "https://github.com/alanWXZ/MonoMRN",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "MonoMRN_ICCV2025.pdf",
+  "keywords": ["occupancy", "semantic scene completion", "SSC", "monocular", "recurrent", "indoor", "outdoor"],
+  "notes": "First author: Xuzhi Wang. Tianjin Normal University."
+}

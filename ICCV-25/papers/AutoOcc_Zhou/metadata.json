@@ -1,0 +1,16 @@
+{
+  "title": "AutoOcc: Automatic Open-Ended Semantic Occupancy Annotation via Vision-Language Guided Gaussian Splatting",
+  "short_title": "AutoOcc",
+  "authors": ["Zhou", "et al."],
+  "first_author": "Zhou",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2502.04981",
+  "arxiv_url": "https://arxiv.org/abs/2502.04981",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_AutoOcc_Automatic_Open-Ended_Semantic_Occupancy_Annotation_via_Vision-Language_Guided_Gaussian_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "AutoOcc_ICCV2025.pdf",
+  "keywords": ["occupancy", "semantic occupancy", "Gaussian splatting", "vision-language", "open-ended"],
+  "notes": "Highlight paper"
+}

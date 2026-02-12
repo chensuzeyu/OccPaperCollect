@@ -1,0 +1,24 @@
+﻿{
+    "title":  "OccProphet: Pushing the Efficiency Frontier of Camera-Only 4D Occupancy Forecasting with an Observer-Forecaster-Refiner Framework",
+    "short_title":  "OccProphet",
+    "authors":  [
+                    "Junliang Chen",
+                    "Huaiyuan Xu",
+                    "Yi Wang",
+                    "Lap-Pui Chau"
+                ],
+    "first_author":  "Chen",
+    "venue":  "ICLR 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=vC7AlY1ytz",
+    "openreview_id":  "vC7AlY1ytz",
+    "pdf_url":  "/pdf/dfa964e01776bee3436a7bb182a5fafd67461314.pdf",
+    "abstract":  "Predicting variations in complex traffic environments is crucial for the safety of autonomous driving. Recent advancements in occupancy forecasting have enabled forecasting future 3D occupied status in driving environments by observing historical 2D images. However, high computational demands make occupancy forecasting less efficient during training and inference stages, hindering its feasibility for deployment on edge agents. In this paper, we propose a novel framework, \\textit{i.e.}, OccProphet, to efficiently and effectively learn occupancy forecasting with significantly lower computational requirements while improving forecasting accuracy. OccProphet comprises three lightweight components: Observer, Forecaster, and Refiner. The Observer extracts spatio-temporal features from 3D multi-frame voxels using the proposed Efficient 4D Aggregation with Tripling-Attention Fusion, while the Forecaster and Refiner conditionally predict and refine future occupancy inferences. Experimental results on nuScenes, Lyft-Level5, and nuScenes-Occupancy datasets demonstrate that OccProphet is both training- and inference-friendly. OccProphet reduces 58\\%$\\sim$78\\% of the computational cost with a 2.6$\\times$ speedup compared with the state-of-the-art Cam4DOcc. Moreover, it achieves 4\\%$\\sim$18\\% relatively higher forecasting accuracy. Code and models are publicly available at https://github.com/JLChen-C/OccProphet.",
+    "keywords":  [
+                     "camera-only occupancy forecasting",
+                     "efficiency",
+                     "effectiveness",
+                     "autonomous driving"
+                 ],
+    "local_pdf":  "OccProphet_ICLR2025.pdf"
+}

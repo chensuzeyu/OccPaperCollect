@@ -1,0 +1,16 @@
+{
+  "title": "EvOcc: Accurate Semantic Occupancy for Automated Driving Using Evidence Theory",
+  "short_title": "EvOcc",
+  "authors": ["Kälble", "et al."],
+  "first_author": "Kälble",
+  "venue": "CVPR 2025",
+  "arxiv_id": null,
+  "arxiv_url": null,
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Kalble_EvOcc_Accurate_Semantic_Occupancy_for_Automated_Driving_Using_Evidence_Theory_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/boschresearch/evocc",
+  "abstract": "See CVF for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "EvOcc_CVPR2025.pdf",
+  "keywords": ["occupancy", "semantic occupancy", "evidence theory", "automated driving", "uncertainty"],
+  "notes": "First author: Jonas Kälble. Bosch, University of Technology Nuremberg."
+}

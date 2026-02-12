@@ -1,0 +1,16 @@
+{
+  "title": "Three Cars Approaching within 100m! Enhancing Distant Geometry by Tri-Axis Voxel Scanning for Camera-based Semantic Scene Completion",
+  "short_title": "ScanSSC",
+  "authors": ["Bae", "et al."],
+  "first_author": "Bae",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2411.16129",
+  "arxiv_url": "https://arxiv.org/abs/2411.16129",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Bae_Three_Cars_Approaching_within_100m_Enhancing_Distant_Geometry_by_Tri-Axis_CVPR_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "ScanSSC_CVPR2025.pdf",
+  "keywords": ["occupancy", "semantic scene completion", "SSC", "camera-based", "tri-axis", "3D"],
+  "notes": "First author: Jongseong Bae. Yonsei University."
+}

@@ -1,0 +1,16 @@
+{
+  "title": "MCOP: Multi-UAV Collaborative Occupancy Prediction",
+  "short_title": "MCOP",
+  "authors": ["Lin", "et al."],
+  "first_author": "Lin",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2510.12679",
+  "arxiv_url": "https://arxiv.org/abs/2510.12679",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Lin_MCOP_Multi-UAV_Collaborative_Occupancy_Prediction_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "MCOP_ICCV2025.pdf",
+  "keywords": ["occupancy", "UAV", "multi-agent", "collaborative", "prediction"],
+  "notes": "First author: Zefu Lin"
+}

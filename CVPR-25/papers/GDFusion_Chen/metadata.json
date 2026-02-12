@@ -1,0 +1,16 @@
+{
+  "title": "Rethinking Temporal Fusion with A Unified Gradient Descent View for 3D Semantic Occupancy Prediction",
+  "short_title": "GDFusion",
+  "authors": ["Chen", "et al."],
+  "first_author": "Chen",
+  "venue": "CVPR 2025",
+  "arxiv_id": "2504.12959",
+  "arxiv_url": "https://arxiv.org/abs/2504.12959",
+  "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Chen_Rethinking_Temporal_Fusion_with_a_Unified_Gradient_Descent_View_for_CVPR_2025_paper.pdf",
+  "project_url": "https://github.com/cdb342/GDFusion",
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "GDFusion_CVPR2025.pdf",
+  "keywords": ["occupancy", "semantic occupancy", "temporal fusion", "gradient descent", "3D prediction"],
+  "notes": "First author: Dubing Chen. University of Macau."
+}

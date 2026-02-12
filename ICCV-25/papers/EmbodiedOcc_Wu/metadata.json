@@ -1,0 +1,16 @@
+{
+  "title": "EmbodiedOcc: Embodied 3D Occupancy Prediction for Vision-based Online Scene Understanding",
+  "short_title": "EmbodiedOcc",
+  "authors": ["Yuqi Wu", "Wenzhao Zheng", "Sicheng Zuo", "Yuanhui Huang", "Jie Zhou", "Jiwen Lu"],
+  "first_author": "Wu",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2412.04380",
+  "arxiv_url": "https://arxiv.org/abs/2412.04380",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wu_EmbodiedOcc_Embodied_3D_Occupancy_Prediction_for_Vision-based_Online_Scene_ICCV_2025_paper.pdf",
+  "project_url": "https://github.com/YkiWu/EmbodiedOcc",
+  "abstract": "3D occupancy prediction provides a comprehensive description of the surrounding scenes and has become an essential task for 3D perception. Most existing methods focus on offline perception from one or a few views and cannot be applied to embodied agents that demand to gradually perceive the scene through progressive embodied exploration. In this paper, we formulate an embodied 3D occupancy prediction task to target this practical scenario and propose a Gaussian-based EmbodiedOcc framework to accomplish it. We initialize the global scene with uniform 3D semantic Gaussians and progressively update local regions observed by the embodied agent. For each update, we extract semantic and structural features from the observed image and efficiently incorporate them via deformable cross-attention to refine the regional Gaussians. Finally, we employ Gaussian-to-voxel splatting to obtain the global 3D occupancy from the updated 3D Gaussians.",
+  "pdf_source": "cvf",
+  "local_pdf": "EmbodiedOcc_ICCV2025.pdf",
+  "keywords": ["occupancy", "embodied", "Gaussian", "online", "scene understanding"],
+  "notes": null
+}

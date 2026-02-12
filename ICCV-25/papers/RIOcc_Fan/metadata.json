@@ -1,0 +1,16 @@
+{
+  "title": "RIOcc: Efficient Cross-Modal Fusion Transformer with Collaborative Feature Refinement for 3D Semantic Occupancy Prediction",
+  "short_title": "RIOcc",
+  "authors": ["Fan", "et al."],
+  "first_author": "Fan",
+  "venue": "ICCV 2025",
+  "arxiv_id": null,
+  "arxiv_url": null,
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Fan_RIOcc_Efficient_Cross-Modal_Fusion_Transformer_with_Collaborative_Feature_Refinement_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See CVF for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "RIOcc_ICCV2025.pdf",
+  "keywords": ["occupancy", "semantic occupancy", "cross-modal", "transformer", "fusion"],
+  "notes": null
+}

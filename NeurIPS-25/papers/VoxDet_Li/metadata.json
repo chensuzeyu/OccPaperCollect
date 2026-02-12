@@ -1,0 +1,23 @@
+﻿{
+    "title":  "VoxDet: Rethinking 3D Semantic Scene Completion as Dense Object Detection",
+    "short_title":  "VoxDet",
+    "authors":  [
+                    "Wuyang Li",
+                    "Zhu Yu",
+                    "Alexandre Alahi"
+                ],
+    "first_author":  "Li",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "spotlight",
+    "openreview_url":  "https://openreview.net/forum?id=lMhNrt0Bnm",
+    "openreview_id":  "lMhNrt0Bnm",
+    "pdf_url":  "/pdf/fe865a04e4d87f0d1c8c99b735a4a2e512c3beab.pdf",
+    "abstract":  "Semantic Scene Completion (SSC) aims to reconstruct the 3D geometry and semantics of the surrounding environment. With dense voxel labels, prior works typically formulate SSC as a *dense segmentation task*, independently classifying each voxel. However, this paradigm neglects critical instance-centric discriminability, leading to instance-level incompleteness and adjacent ambiguities. To address this, we highlight a \"free lunch\" of SSC labels: the voxel-level class label has implicitly told the instance-level insight, which is ever-overlooked by the community. Motivated by this observation, we first introduce a training-free **Voxel-to-Instance (VoxNT) trick**: a simple yet effective method that freely converts voxel-level class labels into instance-level offset labels. Building on this, we further propose **VoxDet**, an instance-centric framework that reformulates the voxel-level SSC as *dense object detection* by decoupling it into two sub-tasks: offset regression and semantic prediction. Specifically, based on the lifted 3D volume, VoxDet first uses (a) Spatially-decoupled Voxel Encoder to generate disentangled feature volumes for the two sub-tasks, which learn task-specific spatial deformation in the densely projected tri-perceptive space. Then, we deploy (b) Task-decoupled Dense Predictor to address SSC via dense detection. Here, we first regress a 4D offset field to estimate distances (6 directions) between voxels and the corresponding object boundaries in the voxel space. The regressed offsets are then used to guide the instance-level aggregation in the classification branch, achieving instance-aware scene completion. VoxDet can be deployed on both camera and LiDAR input and jointly achieves state-of-the-art results on both benchmarks, which gives 63.0 IoU on the SemanticKITTI test set, **ranking 1$^{st}$** on the online leaderboard.",
+    "keywords":  [
+                     "3D Semantic Scene Completion",
+                     "Free-lunch",
+                     "Voxel-to-Instance (VoxNT) Trick",
+                     "Dense Object Detection"
+                 ],
+    "local_pdf":  "VoxDet_NeurIPS2025.pdf"
+}

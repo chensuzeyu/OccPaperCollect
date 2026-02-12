@@ -1,0 +1,16 @@
+{
+  "title": "MergeOcc: Bridge the Domain Gap between Different LiDARs for Robust Occupancy Prediction",
+  "short_title": "MergeOcc",
+  "authors": ["Zikun Xu", "Jianqiang Wang", "Shaobing Xu"],
+  "first_author": "Xu",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2403.08512",
+  "arxiv_url": "https://arxiv.org/abs/2403.08512",
+  "cvf_url": null,
+  "project_url": "https://github.com/Easonxu-01/MergeOcc_simple",
+  "abstract": "LiDAR-based 3D occupancy prediction evolved rapidly alongside the emergence of large datasets. Nevertheless, the potential of existing diverse datasets remains underutilized as they kick in individually. Models trained on a specific dataset often suffer considerable performance degradation when deployed to real-world scenarios or datasets involving disparate LiDARs. This paper aims to develop a generalized model called MergeOcc, to simultaneously handle different LiDARs by leveraging multiple datasets. The gaps among LiDAR datasets primarily manifest in geometric disparities and semantic inconsistencies. Thus, MergeOcc incorporates a novel model featuring a geometric realignment module and a semantic label mapping module to enable multiple datasets training (MDT). The effectiveness of MergeOcc is validated through experiments on two prominent datasets for autonomous vehicles: OpenOccupancy-nuScenes and SemanticKITTI. The results demonstrate its enhanced robustness and remarkable performance across both types of LiDARs, outperforming several SOTA multi-modality methods. Notably, despite using an identical model architecture and hyper-parameter set, MergeOcc can significantly surpass the baseline due to its exposure to more diverse data. MergeOcc is considered the first cross-dataset 3D occupancy prediction pipeline that effectively bridges the domain gap for seamless deployment across heterogeneous platforms.",
+  "pdf_source": "arXiv",
+  "local_pdf": "MergeOcc_arXiv240308512.pdf",
+  "keywords": ["occupancy", "LiDAR", "domain gap", "robust prediction"],
+  "notes": "CVF 暂未开放，已从 arXiv 获取 PDF（2403.08512）"
+}

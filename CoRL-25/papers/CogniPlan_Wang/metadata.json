@@ -1,0 +1,25 @@
+﻿{
+    "title":  "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction",
+    "short_title":  "CogniPlan",
+    "authors":  [
+                    "Yizhuo Wang",
+                    "Haodong He",
+                    "Jingsong Liang",
+                    "Yuhong Cao",
+                    "Ritabrata Chakraborty",
+                    "Guillaume Adrien Sartoretti"
+                ],
+    "first_author":  "Wang",
+    "venue":  "CoRL 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=uA9GZEmGiT",
+    "openreview_id":  "uA9GZEmGiT",
+    "pdf_url":  "/pdf/4e7f31cd34ca62e095e29d9e31607b8994919a59.pdf",
+    "abstract":  "Path planning in unknown environments is a crucial yet inherently challenging capability for mobile robots, which primarily encompasses two coupled tasks: autonomous exploration and point-goal navigation. In both cases, the robot must perceive the environment, update its belief, and accurately estimate potential information gain on-the-fly to guide planning. In this work, we propose CogniPlan, a novel path planning framework that leverages multiple plausible layouts predicted by a conditional generative inpainting model, mirroring how humans rely on cognitive maps during navigation. These predictions, based on the partially observed map and a set of layout conditioning vectors, enable our planner to reason effectively under uncertainty. We demonstrate strong synergy between generative image-based layout prediction and graph-attention-based path planning, allowing CogniPlan to combine the scalability of graph representations with the fidelity and predictiveness of occupancy maps, yielding notable performance gains in both exploration and navigation. We extensively evaluate CogniPlan on two datasets (hundreds of maps and realistic floor plans), consistently outperforming state-of-the-art planners. We further deploy it in a high-fidelity simulator and on hardware, showcasing its high-quality path planning and real-world applicability.",
+    "keywords":  [
+                     "Path Planning under Uncertainty",
+                     "Map Prediction",
+                     "Graph Attention"
+                 ],
+    "local_pdf":  "CogniPlan_CoRL2025.pdf"
+}

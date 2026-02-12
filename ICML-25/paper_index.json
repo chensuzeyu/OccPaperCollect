@@ -1,0 +1,22 @@
+[
+  {
+    "num": 1,
+    "dir_name": "TowardsLearningtoCompleteA_Takmaz",
+    "title": "Towards Learning to Complete Anything in Lidar",
+    "short_title": "Towards Learning to Complete A",
+    "first_author": "Takmaz",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=vWPzKn6usZ",
+    "pdf_url": "/pdf/8fbe2a59d85d4f1be15c6351679cc46349d858df.pdf"
+  },
+  {
+    "num": 2,
+    "dir_name": "CSV-Occ_Zhu",
+    "title": "CSV-Occ: Fusing Multi-frame Alignment for Occupancy Prediction with Temporal Cross State Space Model and Central Voting Mechanism",
+    "short_title": "CSV-Occ",
+    "first_author": "Zhu",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=7Dt3nH5TZq",
+    "pdf_url": "/pdf/fc2a91d1718b53b0688bd8961afc73c2c46a322f.pdf"
+  }
+]

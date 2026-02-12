@@ -1,0 +1,16 @@
+{
+  "title": "Language Driven Occupancy Prediction",
+  "short_title": "LOcc",
+  "authors": ["Yu", "et al."],
+  "first_author": "Yu",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2411.16072",
+  "arxiv_url": "https://arxiv.org/abs/2411.16072",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yu_Language_Driven_Occupancy_Prediction_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "LOcc_ICCV2025.pdf",
+  "keywords": ["occupancy", "language-driven", "multimodal"],
+  "notes": null
+}

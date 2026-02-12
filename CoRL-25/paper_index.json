@@ -1,0 +1,32 @@
+[
+  {
+    "num": 1,
+    "dir_name": "FetchBot_Liu",
+    "title": "FetchBot: Learning Generalizable Object Fetching in Cluttered Scenes via Zero-Shot Sim2Real",
+    "short_title": "FetchBot",
+    "first_author": "Liu",
+    "presentation": "oral",
+    "openreview_url": "https://openreview.net/forum?id=5ySSVlJBOn",
+    "pdf_url": "/pdf/233ed47c2f534c8b84d1e1c2693dd26cc3bf657a.pdf"
+  },
+  {
+    "num": 2,
+    "dir_name": "CogniPlan_Wang",
+    "title": "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction",
+    "short_title": "CogniPlan",
+    "first_author": "Wang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=uA9GZEmGiT",
+    "pdf_url": "/pdf/4e7f31cd34ca62e095e29d9e31607b8994919a59.pdf"
+  },
+  {
+    "num": 3,
+    "dir_name": "Doors_Fele",
+    "title": "$Door(s)$: Junction State Estimation for Efficient Exploration in Reinforcement Learning",
+    "short_title": "Doors",
+    "first_author": "Fele",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=NtnPVwUCAH",
+    "pdf_url": "/pdf/75ff4b72b7deee1ac89955013d3c0defe8a76bb0.pdf"
+  }
+]

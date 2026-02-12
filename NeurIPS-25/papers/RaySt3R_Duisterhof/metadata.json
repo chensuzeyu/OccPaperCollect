@@ -1,0 +1,24 @@
+﻿{
+    "title":  "RaySt3R: Predicting Novel Depth Maps for Zero-Shot Object Completion",
+    "short_title":  "RaySt3R",
+    "authors":  [
+                    "Bardienus Pieter Duisterhof",
+                    "Jan Oberst",
+                    "Bowen Wen",
+                    "Stan Birchfield",
+                    "Deva Ramanan",
+                    "Jeffrey Ichnowski"
+                ],
+    "first_author":  "Duisterhof",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=NpRbTTgRBG",
+    "openreview_id":  "NpRbTTgRBG",
+    "pdf_url":  "/pdf/5ce1e90c1710406515590644e0b438d818e0a51d.pdf",
+    "abstract":  "3D shape completion has broad applications in robotics, digital twin reconstruction, and extended reality (XR). Although recent advances in 3D object and scene completion have achieved impressive results, existing methods lack 3D consistency, are computationally expensive, and struggle to capture sharp object boundaries. \nOur work (RaySt3R) addresses these limitations by recasting 3D shape completion as a novel view synthesis problem. \nSpecifically, given a single RGB-D image, \nand a novel viewpoint (encoded as a collection of query rays),\nwe train a feedforward transformer to predict depth maps, object masks, and per-pixel confidence scores for those query rays. \nRaySt3R fuses these predictions across multiple query views \nto reconstruct complete 3D shapes. \nWe evaluate RaySt3R on synthetic and real-world datasets, and observe it achieves state-of-the-art performance,\noutperforming the baselines on all datasets by up to 44% in 3D chamfer distance.",
+    "keywords":  [
+                     "3D Vision",
+                     "3D completion"
+                 ],
+    "local_pdf":  "RaySt3R_NeurIPS2025.pdf"
+}

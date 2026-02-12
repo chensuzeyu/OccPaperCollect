@@ -1,0 +1,28 @@
+﻿{
+    "title":  "SQS: Enhancing Sparse Perception Models via Query-based Splatting in Autonomous Driving",
+    "short_title":  "SQS",
+    "authors":  [
+                    "Haiming Zhang",
+                    "Yiyao Zhu",
+                    "Wending Zhou",
+                    "Xu Yan",
+                    "Yingjie CAI",
+                    "Bingbing Liu",
+                    "Shuguang Cui",
+                    "Zhen Li"
+                ],
+    "first_author":  "Zhang",
+    "venue":  "NeurIPS 2025",
+    "presentation_type":  "spotlight",
+    "openreview_url":  "https://openreview.net/forum?id=plpAecfkf4",
+    "openreview_id":  "plpAecfkf4",
+    "pdf_url":  "/pdf/937f7bc959b0c1728e18e30846862d59cb2fdb74.pdf",
+    "abstract":  "Sparse Perception Models (SPMs) adopt a query-driven paradigm that forgoes explicit dense BEV or volumetric construction, enabling highly efficient computation and accelerated inference. In this paper, we introduce SQS, a novel query-based splatting pre-training specifically designed to advance SPMs in autonomous driving. SQS introduces a plug-in module that predicts 3D Gaussian representations from sparse queries during pre-training, leveraging self-supervised splatting to learn fine-grained contextual features through the reconstruction of multi-view images and depth maps. During fine-tuning, the pre-trained Gaussian queries are seamlessly integrated into downstream networks via query interaction mechanisms that explicitly connect pre-trained queries with task-specific queries, effectively accommodating the diverse requirements of occupancy prediction and 3D object detection. Extensive experiments on autonomous driving benchmarks demonstrate that SQS delivers considerable performance gains across multiple query-based 3D perception tasks, notably in occupancy prediction and 3D object detection, outperforming prior state-of-the-art pre-training approaches by a significant margin (i.e., +1.3 mIoU on occupancy prediction and +1.0 NDS on 3D detection).",
+    "keywords":  [
+                     "Autonomous Driving",
+                     "Pre-training",
+                     "3D Gaussian Splatting",
+                     "Query-based Perception"
+                 ],
+    "local_pdf":  "SQS_NeurIPS2025.pdf"
+}

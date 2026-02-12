@@ -1,0 +1,16 @@
+{
+  "title": "Gaussian-based World Model: Gaussian Priors for Voxel-Based Occupancy Prediction and Future Motion Prediction",
+  "short_title": "GENO",
+  "authors": ["Feng", "et al."],
+  "first_author": "Feng",
+  "venue": "ICCV 2025",
+  "arxiv_id": null,
+  "arxiv_url": null,
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Feng_Gaussian-based_World_Model_Gaussian_Priors_for_Voxel-Based_Occupancy_Prediction_and_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See CVF for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "GENO_ICCV2025.pdf",
+  "keywords": ["occupancy", "world model", "Gaussian", "motion prediction", "autonomous driving"],
+  "notes": null
+}

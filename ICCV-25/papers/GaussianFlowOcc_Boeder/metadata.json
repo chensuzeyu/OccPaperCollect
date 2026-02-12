@@ -1,0 +1,16 @@
+{
+  "title": "GaussianFlowOcc: Sparse and Weakly Supervised Occupancy Estimation using Gaussian Splatting and Temporal Flow",
+  "short_title": "GaussianFlowOcc",
+  "authors": ["Boeder", "et al."],
+  "first_author": "Boeder",
+  "venue": "ICCV 2025",
+  "arxiv_id": "2502.17288",
+  "arxiv_url": "https://arxiv.org/abs/2502.17288",
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Boeder_GaussianFlowOcc_Sparse_and_Weakly_Supervised_Occupancy_Estimation_using_Gaussian_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See arXiv for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "GaussianFlowOcc_ICCV2025.pdf",
+  "keywords": ["occupancy", "Gaussian splatting", "temporal flow", "weakly supervised", "sparse"],
+  "notes": null
+}

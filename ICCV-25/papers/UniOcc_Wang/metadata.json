@@ -1,0 +1,16 @@
+{
+  "title": "UniOcc: A Unified Benchmark for Occupancy Forecasting and Prediction in Autonomous Driving",
+  "short_title": "UniOcc",
+  "authors": ["Wang", "et al."],
+  "first_author": "Wang",
+  "venue": "ICCV 2025",
+  "arxiv_id": null,
+  "arxiv_url": null,
+  "cvf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_UniOcc_A_Unified_Benchmark_for_Occupancy_Forecasting_and_Prediction_in_ICCV_2025_paper.pdf",
+  "project_url": null,
+  "abstract": "See CVF for full abstract.",
+  "pdf_source": "cvf",
+  "local_pdf": "UniOcc_ICCV2025.pdf",
+  "keywords": ["occupancy", "benchmark", "forecasting", "prediction", "autonomous driving"],
+  "notes": null
+}
