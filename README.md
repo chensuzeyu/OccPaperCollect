@@ -37,6 +37,6 @@
 - [ICLR-25](ICLR-25/) - ICLR 2025 Occupancy 相关论文 (9篇) · 2025年1月下旬
 - [CVPR-25](CVPR-25/) - CVPR 2025 Occupancy 相关论文 (16篇) · 2025年2月底
 - [ICML-25](ICML-25/) - ICML 2025 Occupancy 相关论文 (2篇) · 2025年4月底-5月初
-- [ICCV-25](ICCV-25/) - ICCV 2025 Occupancy 相关论文 (20篇) · 2025年6月底-7月初
+- [ICCV-25](ICCV-25/) - ICCV 2025 Occupancy 相关论文 (19篇) · 2025年6月底-7月初
 - [CoRL-25](CoRL-25/) - CoRL 2025 Occupancy 相关论文 (3篇) · 2025年8月初
 - [NeurIPS-25](NeurIPS-25/) - NeurIPS 2025 Occupancy 相关论文 (21篇) · 2025年9月下旬

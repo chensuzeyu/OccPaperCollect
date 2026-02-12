@@ -47,6 +47,7 @@
 ```
 ICCV-25/
 ├── README.md                 # 本索引文件
+├── verify_downloads.py       # 下载验收脚本
 ├── papers/                   # 各论文子目录（含 PDF 与 metadata.json）
 │   ├── AutoOcc_Zhou/
 │   │   ├── AutoOcc_ICCV2025.pdf
@@ -112,11 +113,21 @@ ICCV-25/
 
 ---
 
-## 下载说明
+## 下载与验收说明
+
+### 下载 PDF
 
 - **CVF 官方 PDF**：`https://openaccess.thecvf.com/content/ICCV2025/papers/{FirstAuthor}_{ShortTitle}_ICCV_2025_paper.pdf`
 - **arXiv PDF**：`https://arxiv.org/pdf/{arXiv_ID}.pdf`
 - 部分论文可能尚未在 CVF 开放，按上述补救流程优先使用 arXiv。
+
+### 验收逻辑
+
+```bash
+python verify_downloads.py
+```
+
+**验收规则**：以各论文目录下的 `metadata.json` 为准，检查 `local_pdf` 对应文件是否存在；若无 `local_pdf` 字段则尝试 `{short_title}_ICCV2025.pdf`。
 
 ---
 
