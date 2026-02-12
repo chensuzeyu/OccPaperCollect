@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-NeurIPS 2025 - Occupancy 相关论文爬取脚本
+ICLR 2026 - Occupancy 相关论文爬取脚本
 通过 OpenReview API 获取 poster / spotlight / oral 录用论文，按关键词过滤 occupancy 相关
 关键词: occupancy, semantic scene completion, scene completion, panoptic scene completion
 """
@@ -23,14 +23,13 @@ KEYWORDS = [
     "panoptic scene completion",
 ]
 
-# NeurIPS 2025 录用 venue 标签（对应 decision_heading_map）
-# 使用 content.venue 查询，非 venueid
+# ICLR 2026 录用 venue 标签（对应 content.venue，注意大小写）
 ACCEPTED_VENUES = [
-    ("NeurIPS 2025 poster", "poster"),
-    ("NeurIPS 2025 spotlight", "spotlight"),
-    ("NeurIPS 2025 oral", "oral"),
+    ("ICLR 2026 Poster", "poster"),
+    ("ICLR 2026 Spotlight", "spotlight"),
+    ("ICLR 2026 Oral", "oral"),
 ]
-SUBMISSION_INVITATION = "NeurIPS.cc/2025/Conference/-/Submission"
+SUBMISSION_INVITATION = "ICLR.cc/2026/Conference/-/Submission"
 
 
 def normalize(name):
@@ -38,22 +37,23 @@ def normalize(name):
     return re.sub(r"[^\w\-]", "", name.replace(" ", ""))
 
 
-# 明显不相关（RL/bandit 等），用于排除误匹配
+# 明显不相关（RL occupancy measure / 物理学场 等），用于排除误匹配
 EXCLUDE_PATTERNS = [
     "reinforcement learning", "policy gradient", "bandit feedback", "capable model",
-    "imitation learning", "state-action occupancy", "occupancy measure", "occupancy matching",
-    "reward hacking", "occupancy reward", "rlgu", "general utility reinforcement",
+    "reward hacking", "occupancy measures",  # RL 中的 occupancy measure
+    "occupancy reward", "relative occupancy", "state-action",  # RL occupancy
+    "imitation learning", "occupancy matching", "rlgu", "general utility reinforcement",
+    "general relativity", "numerical relativity",  # 物理学场，非 3D 场景 occupancy
 ]
+
 
 def matches_keywords(text):
     """检查文本是否包含任一关键词（3D/场景相关 occupancy）"""
     if not text:
         return False
     t = text.lower()
-    # 排除明显不相关
     if any(p in t for p in EXCLUDE_PATTERNS):
         return False
-    # 优先匹配核心关键词
     if "occupancy" in t:
         return True
     if "semantic scene completion" in t or "panoptic scene completion" in t:
@@ -67,10 +67,8 @@ def extract_first_author(authors):
     """从作者列表提取第一作者姓"""
     if not authors:
         return "Unknown"
-    # authors 可能是字符串列表或对象列表
     first = authors[0]
     if isinstance(first, str):
-        # 格式可能是 "First Last" 或 "~First_Last1"
         parts = first.replace("~", "").replace("_", " ").strip().split()
         return parts[-1] if parts else first
     if isinstance(first, dict) and "name" in first:
@@ -155,7 +153,7 @@ def main():
             "short_title": short_title,
             "authors": authors_raw,
             "first_author": first_author,
-            "venue": "NeurIPS 2025",
+            "venue": "ICLR 2026",
             "presentation_type": pres_type,
             "openreview_url": f"https://openreview.net/forum?id={note.forum}",
             "openreview_id": note.forum,

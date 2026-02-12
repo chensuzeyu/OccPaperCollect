@@ -1,0 +1,24 @@
+﻿{
+    "title":  "TINKER: Diffusion\u0027s Gift to 3D--Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization",
+    "short_title":  "TINKER",
+    "authors":  [
+                    "Canyu Zhao",
+                    "Xiaoman Li",
+                    "Tianjian Feng",
+                    "Zhiyue Zhao",
+                    "Hao Chen",
+                    "Chunhua Shen"
+                ],
+    "first_author":  "Zhao",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=j7Vt2lp2jX",
+    "openreview_id":  "j7Vt2lp2jX",
+    "pdf_url":  "/pdf/6ecade5c44cd2ba3dacd6078e54926c3a58f2095.pdf",
+    "abstract":  "We introduce TINKER, a novel framework for high-fidelity 3D editing without any per-scene finetuning, where only a single edited image (one-shot) or a few edited images (few-shot) are required as input. Unlike prior techniques that demand extensive per-scene optimization to ensure multi-view consistency or to produce dozens of consistent edited input views, TINKER delivers robust, multi-view consistent edits from as few as one or two images. This capability stems from repurposing pretrained diffusion models, which unlocks their latent 3D awareness. To drive research in this space, we curate the first large-scale multi-view editing dataset and data pipeline, spanning diverse scenes and styles. Building on this dataset, we develop our framework capable of generating multi-view consistent edited views without per-scene training, which consists of two novel components: (1) Multi-view consistent editor: Enables precise, reference-driven edits that remain coherent across all viewpoints. (2) Any-view-to-video scene completion model : Leverages spatial-temporal priors from video diffusion to perform high-quality scene completion and novel-view generation even from sparse inputs. Through extensive experiments, TINKER significantly reduces the barrier to generalizable 3D content creation, achieving state-of-the-art performance on editing, novel-view synthesis, and rendering enhancement tasks, while also demonstrating strong potential for 4D editing. We believe that TINKER represents a key step towards truly scalable, zero-shot 3D and 4D editing.",
+    "keywords":  [
+                     "Diffusion Model",
+                     "3D Editing"
+                 ],
+    "local_pdf":  "TINKER_ICLR2026.pdf"
+}

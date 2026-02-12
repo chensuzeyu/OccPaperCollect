@@ -1,0 +1,28 @@
+﻿{
+    "title":  "GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception",
+    "short_title":  "GaussianFusion",
+    "authors":  [
+                    "Xiao Zhao",
+                    "Chang Liu",
+                    "Mingxu Zhu",
+                    "Zheyuan Zhang",
+                    "Linna Song",
+                    "Qingliang Luo",
+                    "Chufan Guo",
+                    "Kuifeng Su"
+                ],
+    "first_author":  "Zhao",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=7jXxQ9bGoU",
+    "openreview_id":  "7jXxQ9bGoU",
+    "pdf_url":  "/pdf/dcd7a53b9bf8809d00b2b4b797669f1a529237e4.pdf",
+    "abstract":  "The bird’s-eye view (BEV) representation enables multi-sensor features to be fused within a unified space, serving as the primary approach for achieving comprehensive multi-task perception. However, the discrete grid representation of BEV leads to significant detail loss and limits feature alignment and cross-modal information interaction in multimodal fusion perception. In this work, we break from the conventional BEV paradigm and propose a new universal framework for multi-task multi-modal fusion based on 3D Gaussian representation. This approach naturally unifies multi-modal features within a shared and continuous 3D Gaussian space, effectively preserving edge and fine texture details. To achieve this, we design a novel forward-projection-based multi-modal Gaussian initialization module and a shared cross-modal Gaussian encoder that iteratively updates Gaussian properties based on an attention mechanism. GaussianFusion is inherently a task-agnostic model, with its unified Gaussian representation naturally supporting various 3D perception tasks. Extensive experiments demonstrate the generality and robustness of GaussianFusion. On the nuScenes dataset, it outperforms the 3D object detection baseline BEVFusion by 2.6 NDS. Its variant surpasses GaussFormer on 3D semantic occupancy with 1.55 mIoU improvement while using only 30% of the Gaussians and achieving a 450% speedup.",
+    "keywords":  [
+                     "Gaussian Representation",
+                     "BEV Representation",
+                     "Detection",
+                     "Occupancy"
+                 ],
+    "local_pdf":  "GaussianFusion_ICLR2026.pdf"
+}

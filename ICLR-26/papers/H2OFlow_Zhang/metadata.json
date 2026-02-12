@@ -1,0 +1,21 @@
+﻿{
+    "title":  "H2OFlow: Grounding Human-Object Affordances with 3D Generative Models and Dense Diffused Flows",
+    "short_title":  "H2OFlow",
+    "authors":  [
+                    "Harry Zhang",
+                    "Luca Carlone"
+                ],
+    "first_author":  "Zhang",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=QhqJ1DCp1X",
+    "openreview_id":  "QhqJ1DCp1X",
+    "pdf_url":  "/pdf/d30e6f9fbe28245ab3642c1b4e0326df4eba0452.pdf",
+    "abstract":  "Understanding how humans interact with the surrounding environment, and specifically reasoning about object interactions and affordances, is a critical challenge in computer vision, robotics, and AI. Current approaches often depend on labor-intensive, hand-labeled datasets capturing real-world or simulated human-object interaction (HOI) tasks, which are costly and time-consuming to produce. Furthermore, most existing methods for 3D affordance understanding are limited to contact-based analysis, neglecting other essential aspects of human-object interactions, such as orientation (e.g., humans might have a preferential orientation with respect certain objects, such as a TV) and spatial occupancy (e.g., humans are more likely to occupy certain regions around an object, like the front of a microwave rather than its back). To address these limitations, we introduce **H2OFlow**, a novel framework that comprehensively learns 3D HOI affordances ---encompassing contact, orientation, and spatial occupancy--- using only synthetic data generated from 3D generative models. H2OFlow employs a dense 3D-flow-based representation, learned through a dense diffusion process operating on point clouds. This learned flow enables the discovery of rich 3D affordances without the need for human annotations. Through extensive quantitative and qualitative evaluations, we demonstrate that H2OFlow generalizes effectively to real-world objects and surpasses prior methods that rely on manual annotations or mesh-based representations in modeling 3D affordance.",
+    "keywords":  [
+                     "affordance",
+                     "3d vision",
+                     "generative model"
+                 ],
+    "local_pdf":  "H2OFlow_ICLR2026.pdf"
+}

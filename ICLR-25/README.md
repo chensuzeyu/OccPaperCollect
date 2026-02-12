@@ -10,7 +10,8 @@ ICLR 2025 录用论文分布在 **Poster**、**Spotlight**、**Oral** 三类，�
 
 1. **OpenReview API**：使用 `openreview-py` 按 venue 标签（`ICLR 2025 Poster` / `Spotlight` / `Oral`）获取全部录用论文，再用关键词过滤。
 2. **检索关键词**：`occupancy`、`semantic scene completion`、`scene completion`、`panoptic scene completion`
-3. **官方入口**：[ICLR 2025 Conference - OpenReview](https://openreview.net/group?id=ICLR.cc/2025/Conference)
+3. **排除关键词**：`reinforcement learning`、`policy gradient`、`imitation learning`、`reward hacking`、`occupancy measure`（RL 中的 state-action occupancy）
+4. **官方入口**：[ICLR 2025 Conference - OpenReview](https://openreview.net/group?id=ICLR.cc/2025/Conference)
    - [Accept (poster)](https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-poster)
    - [Accept (spotlight)](https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-spotlight)
    - [Accept (oral)](https://openreview.net/group?id=ICLR.cc/2025/Conference#tab-accept-oral)
@@ -31,7 +32,7 @@ ICLR 2025 录用论文分布在 **Poster**、**Spotlight**、**Oral** 三类，�
 | 6 | ImagineNav | Prompting Vision-Language Models as Embodied Navigator through Scene Imagination | Zhao | poster | [Link](https://openreview.net/forum?id=vQFw9ryKyK) |
 | 7 | DynamicCity | Large-Scale 4D Occupancy Generation from Dynamic Scenes | Bian | spotlight | [Link](https://openreview.net/forum?id=M7KyLjuN0A) |
 
-*注：已排除 policy gradient、occupancy measures（RL）、reward hacking 等误匹配。*
+*注：已排除 reinforcement learning、policy gradient、reward hacking、Correlated Proxies（RL）等误匹配。*
 
 ---
 

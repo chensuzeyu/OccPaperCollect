@@ -10,20 +10,22 @@ CoRL 2025 录用论文分布在 **Oral**、**Poster** 两类，通过 OpenReview
 
 1. **OpenReview API**：使用 `openreview-py` 按 venue 标签（`CoRL 2025 Oral` / `CoRL 2025 Poster`）获取全部录用论文，再用关键词过滤。
 2. **检索关键词**：`occupancy`、`semantic scene completion`、`scene completion`、`panoptic scene completion`
-3. **官方入口**：[CoRL 2025 Conference - OpenReview](https://openreview.net/group?id=robot-learning.org/CoRL/2025/Conference)
+3. **排除关键词**：`reinforcement learning`、`policy gradient`、`imitation learning`、`occupancy measure`（RL 中的 state occupancy）
+4. **官方入口**：[CoRL 2025 Conference - OpenReview](https://openreview.net/group?id=robot-learning.org/CoRL/2025/Conference)
    - [Submissions](https://openreview.net/submissions?venue=robot-learning.org%2FCoRL%2F2025%2FConference)
 
 ---
 
 ## 论文列表
 
-> 检索关键词：**Occupancy** + **Semantic/Panoptic Scene Completion**（共 3 篇）
+> 检索关键词：**Occupancy** + **Semantic/Panoptic Scene Completion**（共 2 篇）
 
 | # | 论文简称 | 完整标题 | 第一作者 | 类型 | OpenReview |
 |---|----------|----------|----------|------|------------|
 | 1 | FetchBot | FetchBot: Learning Generalizable Object Fetching in Cluttered Scenes via Zero-Shot Sim2Real | Liu | oral | [Link](https://openreview.net/forum?id=5ySSVlJBOn) |
 | 2 | CogniPlan | CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction | Wang | poster | [Link](https://openreview.net/forum?id=uA9GZEmGiT) |
-| 3 | Doors | Door(s): Junction State Estimation for Efficient Exploration in Reinforcement Learning | Fele | poster | [Link](https://openreview.net/forum?id=NtnPVwUCAH) |
+
+*注：已排除 Door(s)（reinforcement learning 探索）等误匹配。*
 
 ---
 

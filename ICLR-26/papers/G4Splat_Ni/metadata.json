@@ -1,0 +1,26 @@
+﻿{
+    "title":  "G4Splat: Geometry-Guided Gaussian Splatting with Generative Prior",
+    "short_title":  "G4Splat",
+    "authors":  [
+                    "Junfeng Ni",
+                    "Yixin Chen",
+                    "Zhifei Yang",
+                    "Yu Liu",
+                    "Ruijie Lu",
+                    "Song-Chun Zhu",
+                    "Siyuan Huang"
+                ],
+    "first_author":  "Ni",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=kdPmsMVhZf",
+    "openreview_id":  "kdPmsMVhZf",
+    "pdf_url":  "/pdf/7c5218ed4e842e78c79c6820753bffe187431bfb.pdf",
+    "abstract":  "Despite recent advances in leveraging generative prior from pre-trained diffusion models for 3D scene reconstruction, existing methods still face two critical limitations. First, due to the lack of reliable geometric supervision, they struggle to produce high-quality reconstructions even in observed regions, let alone in unobserved areas. Second, they lack effective mechanisms to mitigate multi-view inconsistencies in the generated images, leading to severe shape–appearance ambiguities and degraded scene geometry.\nIn this paper, we identify accurate geometry as the fundamental prerequisite for effectively exploiting generative models to enhance 3D scene reconstruction. \nWe first propose to leverage the prevalence of planar structures to derive accurate metric-scale depth maps, providing reliable supervision in both observed and unobserved regions. \nFurthermore, we incorporate this geometry guidance throughout the generative pipeline to improve visibility mask estimation, guide novel view selection, and enhance multi-view consistency when inpainting with video diffusion models, resulting in accurate and consistent scene completion.\nExtensive experiments on Replica, ScanNet++, and DeepBlending show that our method consistently outperforms existing baselines in both geometry and appearance reconstruction, particularly for unobserved regions.\nMoreover, our method naturally supports single-view inputs and unposed videos, with strong generalizability in both indoor and outdoor scenarios with practical real-world applicability. See more results at https://g4splat.github.io.",
+    "keywords":  [
+                     "3D Scene Reconstruction",
+                     "Sparse View Reconstruction",
+                     "Generative Prior"
+                 ],
+    "local_pdf":  "G4Splat_ICLR2026.pdf"
+}

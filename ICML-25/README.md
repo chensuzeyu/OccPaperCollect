@@ -10,7 +10,8 @@ ICML 2025 录用论文分布在 **Poster**、**Spotlight**、**Oral** 三类，�
 
 1. **OpenReview API**：使用 `openreview-py` 按 venue 标签（`ICML 2025 poster` / `ICML 2025 spotlightposter` / `ICML 2025 oral`）获取全部录用论文，再用关键词过滤。
 2. **检索关键词**：`occupancy`、`semantic scene completion`、`scene completion`、`panoptic scene completion`
-3. **官方入口**：[ICML 2025 Conference - OpenReview](https://openreview.net/group?id=ICML.cc/2025/Conference)
+3. **排除关键词**：`reinforcement learning`、`policy gradient`、`imitation learning`、`occupancy measure`（RL）、`privacy amplification`
+4. **官方入口**：[ICML 2025 Conference - OpenReview](https://openreview.net/group?id=ICML.cc/2025/Conference)
    - [Submissions](https://openreview.net/submissions?venue=ICML.cc/2025/Conference)
 
 ---

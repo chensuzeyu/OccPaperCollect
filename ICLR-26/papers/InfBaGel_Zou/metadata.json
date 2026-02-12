@@ -1,0 +1,25 @@
+﻿{
+    "title":  "InfBaGel: Human-Object-Scene Interaction Generation with Dynamic Perception and Iterative Refinement",
+    "short_title":  "InfBaGel",
+    "authors":  [
+                    "Yude Zou",
+                    "Junji Gong",
+                    "Xing Gao",
+                    "Zixuan Li",
+                    "Tianxing Chen",
+                    "Guanjie Zheng"
+                ],
+    "first_author":  "Zou",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=TeyHNq4WlI",
+    "openreview_id":  "TeyHNq4WlI",
+    "pdf_url":  "/pdf/0fe97a299d02f7d289671ecdaf454fd409537d99.pdf",
+    "abstract":  "Human–object–scene interactions (HOSI) generation has broad applications in embodied AI, simulation, and animation. Unlike human–object interaction (HOI) and human–scene interaction (HSI), HOSI generation requires reasoning over dynamic object–scene changes, yet suffers from limited annotated data. To address  these issues, we propose a coarse‑to‑fine instruction‑conditioned interaction generation framework that is explicitly aligned with the iterative denoising process of a consistency model. In particular, we adopt a dynamic perception strategy that leverages trajectories from the preceding refinement to update scene context and condition subsequent refinement at each denoising step of consistency model, yielding consistent interactions.\nTo further reduce physical artifacts, we introduce a bump‑aware guidance that mitigates collisions and penetrations during sampling without requiring fine‑grained scene geometry, enabling real‑time generation. To overcome  data scarcity, we design a hybrid training startegy that synthesizes pseudo‑HOSI samples by injecting voxelized scene occupancy into HOI datasets and jointly trains with high‑fidelity HSI data, allowing interaction learning while preserving realistic scene awareness. Extensive experiments demonstrate that our method achieves state‑of‑the‑art performance in both HOSI and HOI generation, and strong  generalization to unseen scenes. Code and datasets will be released upon acceptance.",
+    "keywords":  [
+                     "Interaction Generation",
+                     "Consistency Model",
+                     "Human Motion"
+                 ],
+    "local_pdf":  "InfBaGel_ICLR2026.pdf"
+}

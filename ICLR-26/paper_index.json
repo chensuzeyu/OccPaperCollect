@@ -1,0 +1,102 @@
+[
+  {
+    "num": 1,
+    "dir_name": "H2OFlow_Zhang",
+    "title": "H2OFlow: Grounding Human-Object Affordances with 3D Generative Models and Dense Diffused Flows",
+    "short_title": "H2OFlow",
+    "first_author": "Zhang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=QhqJ1DCp1X",
+    "pdf_url": "/pdf/d30e6f9fbe28245ab3642c1b4e0326df4eba0452.pdf"
+  },
+  {
+    "num": 2,
+    "dir_name": "OccDriver_Huang",
+    "title": "OccDriver: Future Occupancy Guided Dual-branch Trajectory Planner in Autonomous Driving",
+    "short_title": "OccDriver",
+    "first_author": "Huang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=abJCjkIwi5",
+    "pdf_url": "/pdf/40499510e4ef7cc96496ca131ffcdb75f3422fb6.pdf"
+  },
+  {
+    "num": 3,
+    "dir_name": "ProgressiveGaussianTransform_Yan",
+    "title": "Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction",
+    "short_title": "Progressive Gaussian Transform",
+    "first_author": "Yan",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=mHFaflQv93",
+    "pdf_url": "/pdf/f62d162ae80809dbb0ef234ea0ac2f422d755ecc.pdf"
+  },
+  {
+    "num": 4,
+    "dir_name": "S2GO_Park",
+    "title": "S2GO: Streaming Sparse Gaussian Occupancy",
+    "short_title": "S2GO",
+    "first_author": "Park",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=z8ggdMlSco",
+    "pdf_url": "/pdf/b940044dee9b534edf0d45b97cb82091c8e83f03.pdf"
+  },
+  {
+    "num": 5,
+    "dir_name": "GaussianFusion_Zhao",
+    "title": "GaussianFusion: Unified 3D Gaussian Representation for Multi-Modal Fusion Perception",
+    "short_title": "GaussianFusion",
+    "first_author": "Zhao",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=7jXxQ9bGoU",
+    "pdf_url": "/pdf/dcd7a53b9bf8809d00b2b4b797669f1a529237e4.pdf"
+  },
+  {
+    "num": 6,
+    "dir_name": "G4Splat_Ni",
+    "title": "G4Splat: Geometry-Guided Gaussian Splatting with Generative Prior",
+    "short_title": "G4Splat",
+    "first_author": "Ni",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=kdPmsMVhZf",
+    "pdf_url": "/pdf/7c5218ed4e842e78c79c6820753bffe187431bfb.pdf"
+  },
+  {
+    "num": 7,
+    "dir_name": "World2Minecraft_Zhang",
+    "title": "World2Minecraft: Occupancy-Driven simulated scenes Construction",
+    "short_title": "World2Minecraft",
+    "first_author": "Zhang",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=dc90uPqxWF",
+    "pdf_url": "/pdf/f5f5d5e7a18f953ba18e836b1b30d45c6859f2b9.pdf"
+  },
+  {
+    "num": 8,
+    "dir_name": "UniSplat_Shi",
+    "title": "UniSplat: Unified Spatio-Temporal Fusion via 3D Latent Scaffolds for Dynamic Driving Scene Reconstruction",
+    "short_title": "UniSplat",
+    "first_author": "Shi",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=Ng2VDbKD4r",
+    "pdf_url": "/pdf/6cb4440a6eae194bbf5f04b6829cdfaf331846b4.pdf"
+  },
+  {
+    "num": 9,
+    "dir_name": "InfBaGel_Zou",
+    "title": "InfBaGel: Human-Object-Scene Interaction Generation with Dynamic Perception and Iterative Refinement",
+    "short_title": "InfBaGel",
+    "first_author": "Zou",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=TeyHNq4WlI",
+    "pdf_url": "/pdf/0fe97a299d02f7d289671ecdaf454fd409537d99.pdf"
+  },
+  {
+    "num": 10,
+    "dir_name": "TINKER_Zhao",
+    "title": "TINKER: Diffusion's Gift to 3D--Multi-View Consistent Editing From Sparse Inputs without Per-Scene Optimization",
+    "short_title": "TINKER",
+    "first_author": "Zhao",
+    "presentation": "poster",
+    "openreview_url": "https://openreview.net/forum?id=j7Vt2lp2jX",
+    "pdf_url": "/pdf/6ecade5c44cd2ba3dacd6078e54926c3a58f2095.pdf"
+  }
+]

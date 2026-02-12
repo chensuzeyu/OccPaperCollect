@@ -1,0 +1,23 @@
+﻿{
+    "title":  "World2Minecraft: Occupancy-Driven simulated scenes Construction",
+    "short_title":  "World2Minecraft",
+    "authors":  [
+                    "Lechao Zhang",
+                    "Haoran Xu",
+                    "Jingyu Gong",
+                    "Xuhong Wang",
+                    "Yuan Xie",
+                    "Xin Tan"
+                ],
+    "first_author":  "Zhang",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=dc90uPqxWF",
+    "openreview_id":  "dc90uPqxWF",
+    "pdf_url":  "/pdf/f5f5d5e7a18f953ba18e836b1b30d45c6859f2b9.pdf",
+    "abstract":  "Embodied intelligence requires high-fidelity simulation environments to support perception and decision-making, yet existing platforms often suffer from data contamination and limited flexibility. To mitigate this, we propose World2Minecraft to convert real-world scenes into structured Minecraft environments based on 3D semantic occupancy prediction. In the reconstructed scenes, we can effortlessly perform downstream tasks such as Vision-Language Navigation(VLN). However, we observe that reconstruction quality heavily depends on accurate occupancy prediction, which remains limited by data scarcity and poor generalization in existing models. We introduce a low-cost, automated, and scalable data acquisition pipeline for creating customized occupancy datasets, and demonstrate its effectiveness through MinecraftOcc, a large-scale dataset featuring 100,165 images from 156 richly detailed indoor scenes. Extensive experiments show that our dataset provides a critical complement to existing datasets and poses a significant challenge to current SOTA methods. These findings contribute to improving occupancy prediction and highlight the value of World2Minecraft in providing a customizable and editable platform for personalized embodied AI research. We will publicly release the dataset and the complete generation framework to ensure reproducibility and encourage future work.",
+    "keywords":  [
+                     "Embodied AI; World2Minecraft; 3D Semantic Occupancy Prediction; MinecraftOcc Dataset; Vision-Language Navigation"
+                 ],
+    "local_pdf":  "World2Minecraft_ICLR2026.pdf"
+}

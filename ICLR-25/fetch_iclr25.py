@@ -39,8 +39,9 @@ def normalize(name):
 
 # 明显不相关（RL occupancy measure 等），用于排除误匹配
 EXCLUDE_PATTERNS = [
-    "policy gradient", "bandit feedback", "capable model",
+    "reinforcement learning", "policy gradient", "bandit feedback", "capable model",
     "reward hacking", "occupancy measures",  # RL 中的 occupancy measure
+    "imitation learning", "state-action occupancy", "occupancy reward", "rlgu",
 ]
 
 

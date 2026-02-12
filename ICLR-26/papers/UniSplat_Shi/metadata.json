@@ -1,0 +1,26 @@
+﻿{
+    "title":  "UniSplat: Unified Spatio-Temporal Fusion via 3D Latent Scaffolds for Dynamic Driving Scene Reconstruction",
+    "short_title":  "UniSplat",
+    "authors":  [
+                    "Chen Shi",
+                    "Shaoshuai Shi",
+                    "Xiaoyang Lyu",
+                    "Chunyang Liu",
+                    "Kehua Sheng",
+                    "Bo Zhang",
+                    "Li Jiang"
+                ],
+    "first_author":  "Shi",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=Ng2VDbKD4r",
+    "openreview_id":  "Ng2VDbKD4r",
+    "pdf_url":  "/pdf/6cb4440a6eae194bbf5f04b6829cdfaf331846b4.pdf",
+    "abstract":  "Feed-forward 3D reconstruction for autonomous driving has advanced rapidly, yet existing methods struggle with the joint challenges of sparse, non-overlapping camera views and complex scene dynamics. \nWe present UniSplat, a general feed-forward framework that learns robust dynamic scene reconstruction through unified latent spatio-temporal fusion. UniSplat constructs a 3D latent scaffold, a structured representation that captures geometric and semantic scene context by leveraging pretrained foundation models. To effectively integrate information across spatial views and temporal frames, we introduce an efficient fusion mechanism that operates directly within the 3D scaffold, enabling consistent spatio-temporal alignment. To ensure complete and detailed reconstructions, we design a dual-branch decoder that generates dynamic-aware Gaussians from the fused scaffold by combining point-anchored refinement with voxel-based generation, and maintain a persistent memory of static Gaussians to enable streaming scene completion beyond current camera coverage. Extensive experiments on real-world datasets demonstrate that UniSplat achieves state-of-the-art performance in novel view synthesis, while providing robust and high-quality renderings even for viewpoints outside the original camera coverage.",
+    "keywords":  [
+                     "Autonomous Driving",
+                     "Feed-Forward Scene Reconstruction",
+                     "3D Gaussian Splatting"
+                 ],
+    "local_pdf":  "UniSplat_ICLR2026.pdf"
+}

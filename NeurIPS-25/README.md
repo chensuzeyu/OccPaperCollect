@@ -10,7 +10,8 @@ NeurIPS 2025 录用论文分布在 **Poster**、**Spotlight**、**Oral** 三类�
 
 1. **OpenReview API**：使用 `openreview-py` 按 venue 标签（`NeurIPS 2025 poster` / `spotlight` / `oral`）获取全部录用论文，再用关键词过滤。
 2. **检索关键词**：`occupancy`、`semantic scene completion`、`scene completion`、`panoptic scene completion`
-3. **官方入口**：[NeurIPS 2025 Conference - OpenReview](https://openreview.net/group?id=NeurIPS.cc/2025/Conference)
+3. **排除关键词**：`reinforcement learning`、`policy gradient`、`imitation learning`、`bandit`、`reward hacking`、`occupancy measure`（RL 中的 state-action occupancy）、`occupancy matching`、`RLGU`
+4. **官方入口**：[NeurIPS 2025 Conference - OpenReview](https://openreview.net/group?id=NeurIPS.cc/2025/Conference)
    - [Accept (poster)](https://openreview.net/group?id=NeurIPS.cc/2025/Conference#tab-accept-poster)
    - [Accept (spotlight)](https://openreview.net/group?id=NeurIPS.cc/2025/Conference#tab-accept-spotlight)
    - [Accept (oral)](https://openreview.net/group?id=NeurIPS.cc/2025/Conference#tab-accept-oral)
@@ -19,31 +20,29 @@ NeurIPS 2025 录用论文分布在 **Poster**、**Spotlight**、**Oral** 三类�
 
 ## 论文列表
 
-> 检索关键词：**Occupancy** + **Semantic/Panoptic Scene Completion**（共 19 篇）
+> 检索关键词：**Occupancy** + **Semantic/Panoptic Scene Completion**（共 17 篇）
 
 | # | 论文简称 | 完整标题 | 第一作者 | 类型 | OpenReview |
 |---|----------|----------|----------|------|------------|
 | 1 | CADGrasp | Learning Contact and Collision Aware General Dexterous Grasping in Cluttered Scenes | Zhang | poster | [Link](https://openreview.net/forum?id=CB8jwNE2vV) |
-| 2 | IOSTOM | Offline Imitation Learning from Observations via State Transition Occupancy Matching | Pham | poster | [Link](https://openreview.net/forum?id=OEp1J4V2fN) |
-| 3 | CymbaDiff | Structured Spatial Diffusion for Sketch-based 3D Semantic Urban Scene Generation | Liang | poster | [Link](https://openreview.net/forum?id=hFyIIqmcqf) |
+| 2 | CymbaDiff | Structured Spatial Diffusion for Sketch-based 3D Semantic Urban Scene Generation | Liang | poster | [Link](https://openreview.net/forum?id=hFyIIqmcqf) |
+| 3 | Towards foundational LiDAR | Towards foundational LiDAR world models with efficient latent flow matching | Liu | poster | [Link](https://openreview.net/forum?id=OyX9cC9WaV) |
 | 4 | IPFormer | Visual 3D Panoptic Scene Completion with Context-Adaptive Instance Proposals | Gross | poster | [Link](https://openreview.net/forum?id=Y0hymKkn2a) |
 | 5 | RayFusion | Ray Fusion Enhanced Collaborative Visual Perception | Wang | poster | [Link](https://openreview.net/forum?id=eK61hWzAAl) |
 | 6 | RaySt3R | Predicting Novel Depth Maps for Zero-Shot Object Completion | Duisterhof | poster | [Link](https://openreview.net/forum?id=NpRbTTgRBG) |
 | 7 | Learning Temporal 3D Semantic | Learning Temporal 3D Semantic Scene Completion via Optical Flow Guidance | Wang | poster | [Link](https://openreview.net/forum?id=nK5WovvHk2) |
 | 8 | See through the Dark | Learning Illumination-affined Representations for Nighttime Occupancy Prediction | Wuyuan | poster | [Link](https://openreview.net/forum?id=2Yk4GnB3DY) |
-| 9 | COME | Adding Scene-Centric Forecasting Control to Occupancy World Model | Shi | poster | [Link](https://openreview.net/forum?id=EYxLmZRSK1) |
-| 10 | ODG | Occupancy Prediction Using Dual Gaussians | Shi | poster | [Link](https://openreview.net/forum?id=CkmLys7ipp) |
-| 11 | QuadricFormer | Scene as Superquadrics for 3D Semantic Occupancy Prediction | Zuo | poster | [Link](https://openreview.net/forum?id=eZNdkwJYbN) |
-| 12 | X-Scene | Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability | Yang | poster | [Link](https://openreview.net/forum?id=QclFsekj9B) |
-| 13 | Dynamic Focused Masking | Dynamic Focused Masking for Autoregressive Embodied Occupancy Prediction | Sun | poster | [Link](https://openreview.net/forum?id=PvEnRUWSfn) |
-| 14 | Towards foundational LiDAR | Towards foundational LiDAR world models with efficient latent flow matching | Liu | poster | [Link](https://openreview.net/forum?id=OyX9cC9WaV) |
-| 15 | Object Concepts Emerge from Mo | Object Concepts Emerge from Motion | Liang | poster | [Link](https://openreview.net/forum?id=QFOhUboCvp) |
-| 16 | RLGF | Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation | Yan | poster | [Link](https://openreview.net/forum?id=EATkC9iHE3) |
-| 17 | EA3D | Online Open-World 3D Object Extraction from Streaming Videos | Zhou | poster | [Link](https://openreview.net/forum?id=7aDKD8RBUw) |
-| 18 | SQS | Enhancing Sparse Perception Models via Query-based Splatting in Autonomous Driving | Zhang | spotlight | [Link](https://openreview.net/forum?id=plpAecfkf4) |
-| 19 | VoxDet | Rethinking 3D Semantic Scene Completion as Dense Object Detection | Li | spotlight | [Link](https://openreview.net/forum?id=lMhNrt0Bnm) |
+| 9 | Object Concepts Emerge from Mo | Object Concepts Emerge from Motion | Liang | poster | [Link](https://openreview.net/forum?id=QFOhUboCvp) |
+| 10 | COME | Adding Scene-Centric Forecasting Control to Occupancy World Model | Shi | poster | [Link](https://openreview.net/forum?id=EYxLmZRSK1) |
+| 11 | ODG | Occupancy Prediction Using Dual Gaussians | Shi | poster | [Link](https://openreview.net/forum?id=CkmLys7ipp) |
+| 12 | EA3D | Online Open-World 3D Object Extraction from Streaming Videos | Zhou | poster | [Link](https://openreview.net/forum?id=7aDKD8RBUw) |
+| 13 | QuadricFormer | Scene as Superquadrics for 3D Semantic Occupancy Prediction | Zuo | poster | [Link](https://openreview.net/forum?id=eZNdkwJYbN) |
+| 14 | X-Scene | Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability | Yang | poster | [Link](https://openreview.net/forum?id=QclFsekj9B) |
+| 15 | Dynamic Focused Masking | Dynamic Focused Masking for Autoregressive Embodied Occupancy Prediction | Sun | poster | [Link](https://openreview.net/forum?id=PvEnRUWSfn) |
+| 16 | SQS | Enhancing Sparse Perception Models via Query-based Splatting in Autonomous Driving | Zhang | spotlight | [Link](https://openreview.net/forum?id=plpAecfkf4) |
+| 17 | VoxDet | Rethinking 3D Semantic Scene Completion as Dense Object Detection | Li | spotlight | [Link](https://openreview.net/forum?id=lMhNrt0Bnm) |
 
-*注：已排除 Policy Gradient、Normalizing Flows、Bandit 等误匹配。*
+*注：已排除 reinforcement learning、policy gradient、imitation learning、bandit、RLGF、IOSTOM 等 RL 相关误匹配。*
 
 ---
 

@@ -9,8 +9,9 @@
 为确保检索全面、不遗漏，建议使用以下方式发现论文：
 
 1. **Paper Copilot**：[ICCV 2025 Paper List](https://papercopilot.com/paper-list/iccv-paper-list/iccv-2025-paper-list) 支持按关键词搜索（如 `occupancy`、`scene completion`）。在表格上方的搜索框中输入关键词，或使用列筛选项「Click to Fetch All」加载全部记录后再过滤，可系统性地获取标题中含该词的录用论文。**语义场景补全（Semantic Scene Completion）**与 Occupancy 强相关，建议补充检索。
-2. **ICCV 官方**：[Accepted Papers](https://iccv.thecvf.com/Conferences/2025/AcceptedPapers) 与 [Search](https://iccv.thecvf.com/virtual/2025/search?q=occupancy) 作为补充校验。
-3. **Open Access**：[ICCV 2025 Open Access](https://openaccess.thecvf.com/ICCV2025) 用于核对 PDF 是否已开放，并获取正式链接。
+2. **排除关键词**：`reinforcement learning`、`policy gradient`、`imitation learning`、`occupancy measure`（RL 中的 state-action occupancy）
+3. **ICCV 官方**：[Accepted Papers](https://iccv.thecvf.com/Conferences/2025/AcceptedPapers) 与 [Search](https://iccv.thecvf.com/virtual/2025/search?q=occupancy) 作为补充校验。
+4. **Open Access**：[ICCV 2025 Open Access](https://openaccess.thecvf.com/ICCV2025) 用于核对 PDF 是否已开放，并获取正式链接。
 
 ---
 

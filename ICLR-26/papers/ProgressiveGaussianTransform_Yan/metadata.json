@@ -1,0 +1,21 @@
+﻿{
+    "title":  "Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction",
+    "short_title":  "Progressive Gaussian Transform",
+    "authors":  [
+                    "Chi Yan",
+                    "Dan Xu"
+                ],
+    "first_author":  "Yan",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=mHFaflQv93",
+    "openreview_id":  "mHFaflQv93",
+    "pdf_url":  "/pdf/f62d162ae80809dbb0ef234ea0ac2f422d755ecc.pdf",
+    "abstract":  "The 3D occupancy prediction task has witnessed remarkable progress in recent years, playing a crucial role in vision-based autonomous driving systems. While traditional methods are limited to fixed semantic categories, recent approaches have moved towards predicting text-aligned features to enable open-vocabulary text queries in real-world scenes. However, there exists a trade-off in text-aligned scene modeling: sparse Gaussian representation struggles to capture small objects in the scene, while dense representation incurs significant computational overhead. To address these limitations, we present **PG-Occ**, an innovative  **P**rogressive  **G**aussian Transformer Framework that enables open-vocabulary 3D occupancy prediction. Our framework employs progressive online densification, a feed-forward strategy that gradually enhances the 3D Gaussian representation to capture fine-grained scene details. By iteratively enhancing the representation, the framework achieves increasingly precise and detailed scene understanding. Another key contribution is the introduction of an anisotropy-aware sampling strategy with spatio-temporal fusion, which adaptively assigns receptive fields to Gaussians at different scales and stages, enabling more effective feature aggregation and richer scene information capture. Through extensive evaluations, we demonstrate that **PG-Occ** achieves *state-of-the-art* performance with a relative  **14.3\\% mIoU improvement** over the previous best performing method. The source code and models will be made publicly available upon publication.",
+    "keywords":  [
+                     "3D Gaussian Spaltting",
+                     "3D Occupancy Prediction",
+                     "Open-vocabulary"
+                 ],
+    "local_pdf":  "Progressive Gaussian Transform_ICLR2026.pdf"
+}

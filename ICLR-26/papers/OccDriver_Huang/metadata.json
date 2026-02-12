@@ -1,0 +1,22 @@
+﻿{
+    "title":  "OccDriver: Future Occupancy Guided Dual-branch Trajectory Planner in Autonomous Driving",
+    "short_title":  "OccDriver",
+    "authors":  [
+                    "Zhao Huang",
+                    "Bowen Zhang",
+                    "Zhongzhu Li",
+                    "Di Lin"
+                ],
+    "first_author":  "Huang",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=abJCjkIwi5",
+    "openreview_id":  "abJCjkIwi5",
+    "pdf_url":  "/pdf/40499510e4ef7cc96496ca131ffcdb75f3422fb6.pdf",
+    "abstract":  "Trajectory planning for autonomous driving is challenging due to agents\u0027 behavioral uncertainty and intricate multi-agent interaction modeling. Most existing studies generate trajectories without explicitly exploiting possible scene evolution, while world models predict consequences from ego behavior, enabling more informed planning decisions. Inspired by the world model, we propose OccDriver, a novel rasterized-to-vectorized dual-branch framework for trajectory planning. This pipeline performs a coarse-to-fine trajectory decoding process: The vectorized branch first generate multimodal coarse trajectories; Then the rasterized branch predicts future scene evolutions conditioned on each coarse trajectory via occupancy flow prediction; Lastly, the vectorized branch leverages intuitive future interaction evolution of each modality from the rasterized branch and produces refined trajectories. Several cross-modality (occupancy and trajectory) losses are further introduced to improve the consistency between trajectory and occupancy prediction. Additionally, we apply a contingency objective in both occupancy space, considering marginal and joint occupancy distributions in different planning scopes. Our model is assessed on the large-scale real-world nuPlan dataset and its associated planning benchmark. Experiments show that OccDriver achieves state-of-the-art in both Non-Reactive and Reactive closed-loop performance.",
+    "keywords":  [
+                     "Autonomous Driving",
+                     "Trajectory Planning"
+                 ],
+    "local_pdf":  "OccDriver_ICLR2026.pdf"
+}

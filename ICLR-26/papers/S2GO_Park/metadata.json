@@ -1,0 +1,25 @@
+﻿{
+    "title":  "S2GO: Streaming Sparse Gaussian Occupancy",
+    "short_title":  "S2GO",
+    "authors":  [
+                    "Jinhyung Park",
+                    "Chensheng Peng",
+                    "yihan hu",
+                    "Wenzhao Zheng",
+                    "Kris Kitani",
+                    "Wei Zhan"
+                ],
+    "first_author":  "Park",
+    "venue":  "ICLR 2026",
+    "presentation_type":  "poster",
+    "openreview_url":  "https://openreview.net/forum?id=z8ggdMlSco",
+    "openreview_id":  "z8ggdMlSco",
+    "pdf_url":  "/pdf/b940044dee9b534edf0d45b97cb82091c8e83f03.pdf",
+    "abstract":  "Despite the efficiency and performance of sparse query-based representations for perception, state-of-the-art 3D occupancy estimation methods still rely on voxel-based or dense Gaussian-based 3D representations. However, dense representations are slow, and they lack flexibility in capturing the temporal dynamics of driving scenes. Distinct from prior work, we instead summarize the scene into a compact set of 3D queries which are propagated through time in an online, streaming fashion. These queries are then decoded into semantic Gaussians at each timestep. We couple our framework with a denoising rendering objective to guide the queries and their constituent Gaussians in effectively capturing scene geometry. Owing to its efficient, query-based representation, S2GO achieves state-of-the-art performance on the nuScenes and KITTI occupancy benchmarks, outperforming prior art (e.g., GaussianWorld) by 2.7 IoU with 4.5x faster inference.",
+    "keywords":  [
+                     "3D Gaussian Splatting",
+                     "3D Occupancy Estimation",
+                     "Autonomous Driving"
+                 ],
+    "local_pdf":  "S2GO_ICLR2026.pdf"
+}
